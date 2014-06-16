@@ -1,19 +1,19 @@
 module.exports = function (grunt) {
 	grunt.initConfig({
-	  pkg: grunt.file.readJSON('package.json'),
-	  concat: {
-	    options: {
-		    banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n',
-		    stripBanners: true
-	    },
-	    dist: {
-	      src: ['js/libs/jquery.js', 'js/libs/underscore.js', 'js/libs/backbone.js', 'js/libs/handlebars.js'],
-	      dest: 'js/deps.min.js',
-	    },
-	  },
+		pkg: grunt.file.readJSON('package.json'),
+
+		'compile-handlebars': {
+			globbedTemplateAndOutput: {
+				template: ['templates/*.handlebars'],
+				templateData: '',
+				partials: 'templates/partials/*.handlebars',
+				output: __dirname+'/*.html'
+			}
+		}
+
 	});
 
-	grunt.loadNpmTasks('grunt-contrib-concat');
+	grunt.loadNpmTasks('grunt-compile-handlebars');
 
-	grunt.registerTask('default', ['concat']);
+	grunt.registerTask('default', ['compile-handlebars']);
 }
