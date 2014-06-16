@@ -1,19 +1,19 @@
 body {
   padding: 50px;
-  font: 14px "PT Sans", Helvetica, Arial, sans-serif;
+  margin: 0px;
+  font: 14px "Open Sans", Helvetica, Arial, sans-serif;
   background-image: url("/images/stars.jpg");
   background-repeat: repeat;
   background-size: 100px 300px;
-  margin: 0px;
   border: none;
-  color: #FFF;
+  color: #333;
 }
 
 a {
   color: #00B7FF;
 }
 
-#welcome-sign {
+.brand {
 	font-family: 'Lobster', cursive;
 	border: 10px double yellow;
 	text-align: center;
@@ -25,20 +25,11 @@ a {
 	font-size: 20px;
 }
 
-.logo-list li {
+.inline-list li {
 	display: inline-block;
-	margin: 30px;
+	margin: 5px;
 }
 .img-logo {
 	width: 200px;
 	height: 150px;
-}
-
-.md-text {
-	font-size: 20px;
-}
-
-.md-text:first-letter {
-	font-size: 30px;
-	font-family: 'Lobster', cursive;
 }
