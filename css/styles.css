@@ -1,0 +1,44 @@
+body {
+  padding: 50px;
+  font: 14px "PT Sans", Helvetica, Arial, sans-serif;
+  background-image: url("/images/stars.jpg");
+  background-repeat: repeat;
+  background-size: 100px 300px;
+  margin: 0px;
+  border: none;
+  color: #FFF;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#welcome-sign {
+	font-family: 'Lobster', cursive;
+	border: 10px double yellow;
+	text-align: center;
+}
+
+#main-nav {
+	width: 250px;
+	margin: 0 auto;
+	font-size: 20px;
+}
+
+.logo-list li {
+	display: inline-block;
+	margin: 30px;
+}
+.img-logo {
+	width: 200px;
+	height: 150px;
+}
+
+.md-text {
+	font-size: 20px;
+}
+
+.md-text:first-letter {
+	font-size: 30px;
+	font-family: 'Lobster', cursive;
+}
