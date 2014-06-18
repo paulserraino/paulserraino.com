@@ -41,3 +41,9 @@ a:hover {
 	width: 220px;
 	height: 170px;
 }
+
+@media(max-width: 500px) {
+	body {
+		padding: 5px;
+	}
+}
