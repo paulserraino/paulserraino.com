@@ -1,13 +1,13 @@
 body {
   padding: 50px;
   margin: 0px;
-  font: 14px "Open Sans", Helvetica, Arial, sans-serif;
-  background-color: #67809F;
+  font: 14px "Futura", Helvetica, Arial, sans-serif;
+  background-color: #F2F1EF;
   color: #000;
 }
 
 a {
-	color: cornsilk;
+	color: #000;
 	text-decoration: none;
 }
 
@@ -16,12 +16,25 @@ a:hover {
 }
 
 .brand {
-	font-family: 'Lobster', cursive;
-	font-size: 50px;
+	font-size: 80px;
+	font-weight: 300;
+	margin: 0;
+}
+
+.sub-title {
+	font-size: 18px;
+	color: lightgrey;
+	font-weight: 300;
 }
 
 .container {
 	max-width: 700px;
+	margin: 0 auto;
+}
+
+.center {
+	text-align: center;
+	margin: 0 auto;
 }
 
 .nav a {
@@ -40,4 +53,10 @@ a:hover {
 .img-logo {
 	width: 220px;
 	height: 170px;
+}
+
+@media(max-width: 520px) {
+	.brand {
+		font-size: 40px;
+	}
 }
