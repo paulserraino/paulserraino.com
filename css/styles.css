@@ -62,4 +62,7 @@ a:hover {
 	.brand {
 		font-size: 35px;
 	}
+	.nav {
+		text-align: left;
+	}
 }
