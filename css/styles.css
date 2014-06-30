@@ -127,9 +127,7 @@ a:hover {
 
 
 @media(max-width: 520px) {
-	body {
-		padding: 5px;
-	}
+
 	.brand {
 		font-size: 35px;
 	}
