@@ -14,9 +14,9 @@ a {
 	color: #000;
 	text-decoration: none;
 
-	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	transition: all 0.5s;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
 }
 
 a:hover {
@@ -118,6 +118,11 @@ a:hover {
 
 .footer-nav a:hover {
 	color: #3C3C3C;
+}
+
+.selfie {
+	width: 50%;
+	border-radius: 40px;
 }
 
 
