@@ -7,7 +7,7 @@ permalink: /resume/
 <h1>Resume</h1>
 
 <p>I'm currently living in Austin Texas</p>
-<p>(512­)905-­5488  pserraino99@gmail.com</p>
+<p>pserraino99@gmail.com</p>
 [http://paulserraino.github.io](http://paulserraino.github.io)
 
 <h4>WORK EXPERIENCE</h4>

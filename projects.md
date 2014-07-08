@@ -6,10 +6,10 @@ permalink: /projects/
 
 <h1>Recent Projects</h1>
 
-<ul class="inline-list">
+<ul class="inline-list project-list">
 	<li>
 		<h3>SXSW Feedback 2014</h3>
-		<p></p>(<a href="https://github.com/paulserraino/SXSW-2014-Crash-Survey.git" target="_blank">source code</a>)</p>
+		<p>Following the SXSW car crash, the Austin Center for Events conducted an evaluation survey to get feedback from attendees on how to improve the festival's safety. The results were uploaded to the City of Austin’s open data portal. SXSW Feedback is not only a data visualization for people to assess the survey results, but a discussion platform to continue talking about ways to improve future SXSW events.</p>(<a href="https://github.com/paulserraino/SXSW-2014-Crash-Survey.git" target="_blank">source code</a>)</p>
 		<a href="http://paulserraino.github.io/SXSW-2014-Crash-Survey/" target="_blank">
 		<img class="resp-img" src="/images/br_sxsw-feedback.png" alt="atx housing">
 		</a>
@@ -25,7 +25,7 @@ permalink: /projects/
 	</li>
 	<li>
 		<h3>Wedding RSVP</h3>
-		<p>One of my best friends is getting married next year. I made them a simple rsvp site that will help them track guests.</p>
+		<p>One of my best friends is getting married next year(2015). I made them a simple rsvp site that will help them track guests.</p>
 		<p>(<a href="https://github.com/paulserraino/wedding-rsvp" target="_blank">source code</a>)</p>
 		<a href="http://weddingfrancorsvp.herokuapp.com" target="_blank">
 		<img class="resp-img" src="/images/br_wedding-rsvp.png" alt="wedding rsvp">
