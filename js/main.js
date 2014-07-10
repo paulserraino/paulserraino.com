@@ -15,7 +15,7 @@
 		});
 
 		$win.on("resize", function (evt) {
-			if ($win > 570)
+			if ($win.width() > 570)
 				$('.nav').removeAttr("style");
 		});
 	}
