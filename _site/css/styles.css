@@ -30,6 +30,13 @@ a {
 	width: 49.8889%
 }
 
+.rotate {
+	-webkit-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
 .header {
 	background-color: #FFF;
 	border-bottom: 1px solid #eee;
@@ -98,7 +105,7 @@ a {
   	border-top: 1px solid #e8e8e8;
 
   	position: relative;
-	height: 112px;
+	height: 122px;
 	clear: both;
 }
 
@@ -133,12 +140,50 @@ a {
 }
 
 
-@media(max-width: 520px) {
+@media(max-width: 570px) {
+
+	ul.nav {
+		display: none;
+	}
 
 	.brand {
 		font-size: 35px;
+
 	}
-	.nav {
-		text-align: left;
+
+	.menu-icon {
+		color: #E08283;
+		position: relative;
+		display: block;
+		cursor: pointer;
+		width: 40px;
+		margin-right: 32px;
+		left: 11px;
+	}
+
+	.hamburger {
+		font-size: 30px;
+	}
+
+	.hamburger:before {
+		content:'\2630'; 
+	}
+
+	.x-mark {
+		font-size: 25px;
+		-webkit-transition: all 0.3s;
+		-o-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+	.x-mark:before {
+		content: '\2715';
+	}
+
+	.nav li {
+		display: block;
+	}
+
+	.nav li:hover {
+		background-color: #eee;
 	}
 }
