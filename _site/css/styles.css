@@ -11,7 +11,7 @@ body {
 }
 
 a {
-	color: #000;
+	color: #333;
 	text-decoration: none;
 
 	-webkit-transition: all 0.3s;
@@ -30,11 +30,9 @@ a {
 	width: 49.8889%
 }
 
-.rotate {
-	-webkit-transform: rotate(180deg);
-	-ms-transform: rotate(180deg);
-	-o-transform: rotate(180deg);
-	transform: rotate(180deg);
+
+.hide {
+	visibility: hidden;
 }
 
 .header {
@@ -100,12 +98,11 @@ a {
 .site-footer {
 	padding: 14px;
 	margin-top: 30px;
-	background-color: #1c1c1c;
+	background-color: #eee;
 	color: #FFF;
-  	border-top: 1px solid #e8e8e8;
-
-  	position: relative;
-	height: 122px;
+	border-top: 1px solid #e8e8e8;
+	position: relative;
+	height: 235px;
 	clear: both;
 }
 
@@ -114,7 +111,7 @@ a {
 	margin: 0;
 	padding: 0;
 	font-weight: 400;
-	color: #86E2D5;
+	color: #E08283;
 }
 
 .footer-nav ul {
@@ -124,14 +121,14 @@ a {
 }
 
 .footer-nav a {
-	color: #86E2D5;
+	color: #333;
 	line-height: 1.5;
 	font-weight: 300;
 	font-size: 18px;
 }
 
 .footer-nav a:hover {
-	color: #3C3C3C;
+	color: #86E2D5;
 }
 
 .selfie {
@@ -157,26 +154,35 @@ a {
 		display: block;
 		cursor: pointer;
 		width: 40px;
-		margin-right: 32px;
-		left: 11px;
+		height: 34px;
 	}
 
 	.hamburger {
-		font-size: 30px;
+		font-size: 69px;
+		height: 30px;
+		-webkit-transform: translateY(-31px);
+		position: absolute;
 	}
 
 	.hamburger:before {
-		content:'\2630'; 
+		content:'\2261'; 
 	}
 
 	.x-mark {
+		position: absolute;
 		font-size: 25px;
+		-webkit-transform: translate(9px,0px);
 		-webkit-transition: all 0.3s;
 		-o-transition: all 0.3s;
 		transition: all 0.3s;
 	}
 	.x-mark:before {
 		content: '\2715';
+	}
+
+	span.x-rotate {
+		-webkit-transform: translate(9px,0px) rotate(180deg);
+		transform: translate(9px,0px) rotate(180deg);
 	}
 
 	.nav li {

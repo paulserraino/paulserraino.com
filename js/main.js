@@ -9,9 +9,9 @@
 		var $win = $(window);
 
 		$('.menu-icon').on('click', function (evt) {
+			$(".x-mark").toggleClass("hide x-rotate");
+			$('.hamburger').toggleClass("hide");
 			$('.nav').slideToggle();
-			$(this).toggleClass('hamburger');
-			$(this).toggleClass('x-mark rotate');
 		});
 
 		$win.on("resize", function (evt) {

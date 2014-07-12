@@ -30,11 +30,9 @@ a {
 	width: 49.8889%
 }
 
-.rotate {
-	-webkit-transform: rotate(180deg);
-	-ms-transform: rotate(180deg);
-	-o-transform: rotate(180deg);
-	transform: rotate(180deg);
+
+.hide {
+	visibility: hidden;
 }
 
 .header {
@@ -156,26 +154,35 @@ a {
 		display: block;
 		cursor: pointer;
 		width: 40px;
-		margin-right: 32px;
-		left: 11px;
+		height: 34px;
 	}
 
 	.hamburger {
-		font-size: 30px;
+		font-size: 69px;
+		height: 30px;
+		-webkit-transform: translateY(-31px);
+		position: absolute;
 	}
 
 	.hamburger:before {
-		content:'\2630'; 
+		content:'\2261'; 
 	}
 
 	.x-mark {
+		position: absolute;
 		font-size: 25px;
+		-webkit-transform: translate(9px,0px);
 		-webkit-transition: all 0.3s;
 		-o-transition: all 0.3s;
 		transition: all 0.3s;
 	}
 	.x-mark:before {
 		content: '\2715';
+	}
+
+	span.x-rotate {
+		-webkit-transform: translate(9px,0px) rotate(180deg);
+		transform: translate(9px,0px) rotate(180deg);
 	}
 
 	.nav li {
