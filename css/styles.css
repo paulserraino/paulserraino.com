@@ -11,7 +11,7 @@ body {
 }
 
 a {
-	color: #000;
+	color: #333;
 	text-decoration: none;
 
 	-webkit-transition: all 0.3s;
@@ -100,12 +100,11 @@ a {
 .site-footer {
 	padding: 14px;
 	margin-top: 30px;
-	background-color: #1c1c1c;
+	background-color: #eee;
 	color: #FFF;
-  	border-top: 1px solid #e8e8e8;
-
-  	position: relative;
-	height: 122px;
+	border-top: 1px solid #e8e8e8;
+	position: relative;
+	height: 235px;
 	clear: both;
 }
 
@@ -114,7 +113,7 @@ a {
 	margin: 0;
 	padding: 0;
 	font-weight: 400;
-	color: #86E2D5;
+	color: #E08283;
 }
 
 .footer-nav ul {
@@ -124,14 +123,14 @@ a {
 }
 
 .footer-nav a {
-	color: #86E2D5;
+	color: #333;
 	line-height: 1.5;
 	font-weight: 300;
 	font-size: 18px;
 }
 
 .footer-nav a:hover {
-	color: #3C3C3C;
+	color: #86E2D5;
 }
 
 .selfie {
