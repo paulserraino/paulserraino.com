@@ -12,6 +12,8 @@ body {
 
 h1, h2, h3, h4 {
 	font-weight: 500;
+	padding: 0;
+	margin: 0;
 }
 
 a {
@@ -140,6 +142,9 @@ a {
 	border-radius: 4px;
 }
 
+.link {
+	color: #E08283;
+}
 
 @media(max-width: 570px) {
 
