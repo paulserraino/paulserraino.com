@@ -15,19 +15,6 @@ permalink: /resume/
 	<a class="link" href="http://paulserraino.com">paulserraino.com</a>
 </div>
 
-<h3>WORK EXPERIENCE</h3>
-<strong>San Francisco Consulting Group</strong> (Austin, Texas)
-<p>
-	<small>(May 2013 - Present)</small>
-	<i>Web Developer Intern</i>
-</p>
-<ul>
-	<li>Client side data validations</li>
-	<li>Building UI components (tool­tips, image sliders...etc)</li>
-	<li>Cleaning up our Oracle database (php heavy)</li>
-	<li>Creating web pages from photoshop files</li>
-</ul>
-
 <h3>SKILLS</h3>
 <ul>
 	<li><h4>Javascript</h4>
@@ -50,6 +37,19 @@ permalink: /resume/
 			<li>Capable of recreating most of the Twitter Bootstrap framework</li>
 		</ul>
 	</li>
+</ul>
+
+<h3>WORK EXPERIENCE</h3>
+<strong>San Francisco Consulting Group</strong> (Austin, Texas)
+<p>
+	<small>(May 2013 - Present)</small>
+	<i>Web Developer Intern</i>
+</p>
+<ul>
+	<li>Client side data validations</li>
+	<li>Building UI components (tool­tips, image sliders...etc)</li>
+	<li>Cleaning up our Oracle database (php heavy)</li>
+	<li>Creating web pages from photoshop files</li>
 </ul>
 
 <h3>ACTIVITIES</h3>
