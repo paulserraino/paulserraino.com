@@ -4,7 +4,6 @@ title: Resume
 permalink: /resume/
 ---
 
-<h1>Resume</h1>
 <div>
 (<a class="link" href="/resume2014.pdf">get pdf</a>)
 </div>
