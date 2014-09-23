@@ -25,6 +25,15 @@ a {
 	transition: all 0.3s;
 }
 
+a:hover {
+	color: #89C4F4;
+}
+
+.row {
+	position: relative;
+	clear: both;
+	width: 100%;
+}
 
 .col-1-3 {
 	float: left;
@@ -43,7 +52,10 @@ a {
 
 .header {
 	background-color: #FFF;
-	border-bottom: 1px solid #eee;
+border-bottom: 1px solid #eee;
+background-image: url("https://farm9.staticflickr.com/8427/7865768594_8d4cb2bfae_b.jpg");
+height: 215px;
+background-size: cover;
 }
 
 .brand {
@@ -54,7 +66,7 @@ a {
 
 .sub-title {
 	font-size: 18px;
-	color: lightgrey;
+	color: #555;
 	font-weight: 300;
 }
 
@@ -71,12 +83,13 @@ a {
 }
 
 .nav a {
-	font-size: 20px;
-	color: #E08283;
+	font-size: 22px;
+	color: #FFF;
 }
 
 .nav a:hover {
-	border-bottom: 2px solid #E08283;
+	color: #89C4F4;
+	border-bottom: 2px solid #89C4F4;
 }
 
 .inline-list li {
@@ -96,20 +109,30 @@ a {
 }
 
 .social {
-	font-size: 27px;
-	margin: 12px;
-	padding: 0;
+	font-size: 42px;
+	margin: 0px;
+}
+
+.icon-bg {
+	background-color: #A7A9AC;
+	border-radius: 50%;
+	width: 49px;
+	display: block;
+	color: #FFF;
+	padding: 7px;
+	height: 47px;
 }
 
 .site-footer {
 	padding: 14px;
 	margin-top: 30px;
-	background-color: #eee;
+	background-color: #f8f8f8;
 	color: #FFF;
 	border-top: 1px solid #e8e8e8;
 	position: relative;
-	height: 235px;
+	height: 135px;
 	clear: both;
+	text-align: center;
 }
 
 .footer-title {
@@ -117,7 +140,7 @@ a {
 	margin: 0;
 	padding: 0;
 	font-weight: 400;
-	color: #E08283;
+	color: #333;
 }
 
 .footer-nav ul {
@@ -138,7 +161,7 @@ a {
 }
 
 .selfie {
-	width: 50%;
+	width: 90%;
 	border-radius: 4px;
 }
 
@@ -146,10 +169,29 @@ a {
 	color: #E08283;
 }
 
+.resume-history-list {
+	list-style: none;
+}
+.resume-history-list li {
+	height: 100px;
+}
+.resume-date {
+	font-family: cursive;
+	font-size: 14px;
+}
+.resume-company {
+	color: #2574A9;
+	font-weight: bold;
+	font-size: 17px;
+}
+.resume-title {
+	font-size: 20px;
+}
+
 @media(max-width: 570px) {
 
 	ul.nav {
-		display: none;
+		display: block;
 	}
 
 	.brand {
@@ -157,42 +199,6 @@ a {
 
 	}
 
-	.menu-icon {
-		color: #E08283;
-		position: relative;
-		display: block;
-		cursor: pointer;
-		width: 40px;
-		height: 34px;
-	}
-
-	.hamburger {
-		font-size: 69px;
-		height: 30px;
-		-webkit-transform: translateY(-31px);
-		position: absolute;
-	}
-
-	.hamburger:before {
-		content:'\2261'; 
-	}
-
-	.x-mark {
-		position: absolute;
-		font-size: 25px;
-		-webkit-transform: translate(9px,0px);
-		-webkit-transition: all 0.3s;
-		-o-transition: all 0.3s;
-		transition: all 0.3s;
-	}
-	.x-mark:before {
-		content: '\2715';
-	}
-
-	span.x-rotate {
-		-webkit-transform: translate(9px,0px) rotate(180deg);
-		transform: translate(9px,0px) rotate(180deg);
-	}
 
 	.nav li {
 		display: block;
