@@ -185,7 +185,16 @@ background-size: cover;
 	font-size: 17px;
 }
 .resume-title {
-	font-size: 20px;
+	font-size: 18px;
+}
+
+.project-list li {
+	margin-bottom: 10px;
+	border-bottom: 1px solid #eee;
+}
+
+.project-list li a {
+	font-size: 17px;	
 }
 
 @media(max-width: 570px) {
