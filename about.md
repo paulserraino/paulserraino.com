@@ -1,13 +1,14 @@
 ---
 layout: default
-title: About
+title: Paul Serraino | About
 permalink: /about/
 ---
 
-
-<p class="center">Born and raised in Austin Texas. I'm passionate about 
-web development, open source, open government, and meeting new people.</p>
-
-<div>
+<h1>About Me</h1>
+<div class="col-1-2">
 	<img src="/images/mebnw.jpg" alt="me" class="selfie">
 </div>
+<div class="col-1-2">
+	<p>Hello, my name is Paul Serraino. I'm a web developer living in Austin Texas. My passions include: open source, mapping technogolies and civic hacking. When I'm not programming, I'm riding bikes and hanging out with cool people.</p>
+</div>
+

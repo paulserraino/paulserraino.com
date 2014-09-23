@@ -1,20 +1,60 @@
 ---
 layout: default
-title: Resume
+title: Paul Serraino | Resume
 permalink: /resume/
 ---
 
-<div>
-(<a class="link" href="/resume2014.pdf">get pdf</a>)
-</div>
-
-<div class="center">
-	<div>I'm currently living in Austin Texas</div>
-	<div>pserraino99@gmail.com</div>
-	<a class="link" href="http://paulserraino.com">paulserraino.com</a>
-</div>
-
+<br>
+<section>
+	<h3 class="resume-title">CONTACT</h3>
+	<hr>
+	<ul>
+		<li>pserraino99@gmail.com</li>
+		<li><a href="https://github.com/paulserraino">github.com/paulserraino</a></li>
+		<li><a href="https://twitter.com/pau1pau1">@pau1pau1</a></li>
+	</ul>
+</section>
+<section>
+	<h3 class="resume-title">WORK EXPERIENCE</h3>
+	<hr>
+	<ul class="resume-history-list">
+		<li>
+			<div class="row">
+				<div class="col-1-2">
+					<h4 class="resume-jobtitle">Canvasser</h4>
+					<span class="resume-date">September 2014 - present</span>
+				</div>
+				<div class="col-1-2">
+					<h4 class="resume-company">Let's Go Austin</h4>
+					<p>Wolf ethical fixie deep v iPhone VHS kitsch, single-origin coffee pork belly trust fund mlkshk semiotics +1 mixtape. Cardigan brunch fashion axe retro literally. Tonx Helvetica swag, flexitarian Blue Bottle before they sold out mustache locavore. Mlkshk meh single-origin coffee Brooklyn.</p>
+				</div>
+			</div>
+		</li>
+		<li>
+			<div class="col-1-2">
+				<h4 class="resume-jobtitle">Freelance Web Developer</h4>
+				<span class="resume-date">February 2014 - present</span>
+			</div>
+			<div class="col-1-2">
+				<h4 class="resume-company">Self</h4>
+				<p>Wolf ethical fixie deep v iPhone VHS kitsch, single-origin coffee pork belly trust fund mlkshk semiotics +1 mixtape. Cardigan brunch fashion axe retro literally. Tonx Helvetica swag, flexitarian Blue Bottle before they sold out mustache locavore. Mlkshk meh single-origin coffee Brooklyn.</p>
+			</div>
+		</li>
+		<li>
+			<div class="col-1-2">
+				<h4 class="resume-jobtitle">Web Developer Intern</h4>
+				<span class="resume-date">May 2013 - August 2014</span>
+			</div>
+			<div class="col-1-2">
+				<h4 class="resume-company">San Francisco Consulting Group</h4>
+				<p>Wolf ethical fixie deep v iPhone VHS kitsch, single-origin coffee pork belly trust fund mlkshk semiotics +1 mixtape. Cardigan brunch fashion axe retro literally. Tonx Helvetica swag, flexitarian Blue Bottle before they sold out mustache locavore. Mlkshk meh single-origin coffee Brooklyn.</p>
+			</div>
+		</li>
+	</ul>	
+</section>
+<section>
 <h3>SKILLS</h3>
+<hr>
 <ul>
 	<li><h4>Javascript</h4>
 		<ul>
@@ -37,26 +77,17 @@ permalink: /resume/
 		</ul>
 	</li>
 </ul>
-
-<h3>WORK EXPERIENCE</h3>
-<strong>San Francisco Consulting Group</strong> (Austin, Texas)
-<p>
-	<small>(May 2013 - Present)</small>
-	<i>Web Developer Intern</i>
-</p>
-<ul>
-	<li>Client side data validations</li>
-	<li>Building UI components (tool­tips, image sliders...etc)</li>
-	<li>Cleaning up our Oracle database (php heavy)</li>
-	<li>Creating web pages from photoshop files</li>
-</ul>
-
-<h3>ACTIVITIES</h3>
-<ul>
-	<li>participated in ATX Hack for Change 2014</li>
-	<li>member of Austin JS </li>
-	<li>member of Open Austin </li>
-</ul>
-
+</section>
+<section>
+	<h3>ACTIVITIES</h3>
+	<hr>
+	<ul>
+		<li>participated in ATX Hack for Change 2014</li>
+		<li>member of Austin JS </li>
+		<li>member of Open Austin </li>
+	</ul>
+</section>
+<section>
 <h3>OTHER INTEREST</h3>
-<p>Riding mountain bikes, playing guitar, meeting new people, good bbq.</p>
+<hr>
+<p>Riding mountain bikes, playing guitar, meeting new people, good bbq.</p></section>
