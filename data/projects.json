@@ -1,6 +1,6 @@
-/*
+[
 {
-	"name": "",
+	"name": "NYC Spots",
 	"description": "",
 	"url": {
 		"github": "",
@@ -10,9 +10,19 @@
 		"thumbnail": "",
 		"screenshot": ""
 	}
-}
-*/
-[
+},
+{
+	"name": "Austin Traffic Bite",
+	"description": "",
+	"url": {
+		"github": "",
+		"site": ""
+	},
+	"images": {
+		"thumbnail": "",
+		"screenshot": ""
+	}
+},
 {
 	"name": "SXSW Feedback 2014",
 	"description": "Following the SXSW car crash, the Austin Center for Events conducted an evaluation survey to get feedback from attendees on how to improve the festival's safety. The results were uploaded to the City of Austin’s open data portal. SXSW Feedback is not only a data visualization for people to assess the survey results, but a discussion platform to continue talking about ways to improve future SXSW events.",
@@ -27,8 +37,7 @@
 },
 {
 	"name": "ATX Housing",
-	"description": "An easy way to search for affordable housing in Austin Texas.
-		I made this app to address the booming population growth in Austin Texas, that is driving properties values up. I wanted to provide a resource that eliminates some of the stress for those looking for affordable housing.",
+	"description": "An easy way to search for affordable housing in Austin Texas. I made this app to address the booming population growth in Austin Texas, that is driving properties values up. I wanted to provide a resource that eliminates some of the stress for those looking for affordable housing.",
 	"url": {
 		"github": "https://github.com/paulserraino/ATXHousing",
 		"site": "http://atxhousing.herokuapp.com"
