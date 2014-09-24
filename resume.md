@@ -26,7 +26,7 @@ permalink: /resume/
 				</div>
 				<div class="col-1-2">
 					<h4 class="resume-company">Let's Go Austin</h4>
-					<p>Wolf ethical fixie deep v iPhone VHS kitsch, single-origin coffee pork belly trust fund mlkshk semiotics +1 mixtape. Cardigan brunch fashion axe retro literally. Tonx Helvetica swag, flexitarian Blue Bottle before they sold out mustache locavore. Mlkshk meh single-origin coffee Brooklyn.</p>
+					<p>Making calls and knocking on doors, asking voters to vote for proposition 1 (phase 1 construction of Austin's new urban rail) on November 4, 2014.</p>
 				</div>
 			</div>
 		</li>
@@ -37,7 +37,7 @@ permalink: /resume/
 			</div>
 			<div class="col-1-2">
 				<h4 class="resume-company">Self</h4>
-				<p>Wolf ethical fixie deep v iPhone VHS kitsch, single-origin coffee pork belly trust fund mlkshk semiotics +1 mixtape. Cardigan brunch fashion axe retro literally. Tonx Helvetica swag, flexitarian Blue Bottle before they sold out mustache locavore. Mlkshk meh single-origin coffee Brooklyn.</p>
+				<p>Creating websites for friends, family and clients. </p>
 			</div>
 		</li>
 		<li>
@@ -47,7 +47,7 @@ permalink: /resume/
 			</div>
 			<div class="col-1-2">
 				<h4 class="resume-company">San Francisco Consulting Group</h4>
-				<p>Wolf ethical fixie deep v iPhone VHS kitsch, single-origin coffee pork belly trust fund mlkshk semiotics +1 mixtape. Cardigan brunch fashion axe retro literally. Tonx Helvetica swag, flexitarian Blue Bottle before they sold out mustache locavore. Mlkshk meh single-origin coffee Brooklyn.</p>
+				<p>Creating web forms for clients, coding both design and data validations. Building the company's client portal for managing service request.</p>
 			</div>
 		</li>
 	</ul>	
@@ -73,7 +73,6 @@ permalink: /resume/
 	<li><h4>Design</h4>
 		<ul>
 			<li>Using media queries and flexible grids to create responsive web pages.</li>
-			<li>Capable of recreating most of the Twitter Bootstrap framework</li>
 		</ul>
 	</li>
 </ul>
