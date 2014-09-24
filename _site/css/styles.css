@@ -197,6 +197,18 @@ background-size: cover;
 	font-size: 17px;	
 }
 
+.project-container {
+	padding: 15px 0px 0px 0px;
+}
+
+.project-container p {
+	font-size: 15px;
+}
+.project-container img {
+	width: 100%;
+	max-width: 650px;
+}
+
 @media(max-width: 570px) {
 
 	ul.nav {
