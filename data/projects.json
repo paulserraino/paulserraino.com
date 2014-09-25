@@ -3,8 +3,8 @@
 	"name": "NYC Spots",
 	"description": "",
 	"url": {
-		"github": "",
-		"site": ""
+		"github": null,
+		"site": "http://paulserraino.com/nyc-trip/"
 	},
 	"images": {
 		"thumbnail": "",
@@ -15,12 +15,12 @@
 	"name": "Austin Traffic Bite",
 	"description": "",
 	"url": {
-		"github": "",
-		"site": ""
+		"github": null,
+		"site": "http://atx.trafficbite.com"
 	},
 	"images": {
 		"thumbnail": "",
-		"screenshot": ""
+		"screenshot": "/images/br_trafficbite.png"
 	}
 },
 {
@@ -40,7 +40,7 @@
 	"description": "An easy way to search for affordable housing in Austin Texas. I made this app to address the booming population growth in Austin Texas, that is driving properties values up. I wanted to provide a resource that eliminates some of the stress for those looking for affordable housing.",
 	"url": {
 		"github": "https://github.com/paulserraino/ATXHousing",
-		"site": "http://atxhousing.herokuapp.com"
+		"site": "http://atxhousing.herokuapp.com/map"
 	},
 	"images": {
 		"thumbnail": "",
@@ -76,7 +76,7 @@
 	"description": "Simple mobile app that lets user put thier questions to a vote.",
 	"url": {
 		"github": "https://github.com/paulserraino/pollit",
-		"site": ""
+		"site": null
 	},
 	"images": {
 		"thumbnail": "",

@@ -209,6 +209,15 @@ background-size: cover;
 	max-width: 650px;
 }
 
+.project-container .visit-site {
+	color: #89C4F4;
+	font-size: 18px;
+	border-bottom: 1px solid transparent;
+}
+.project-container .visit-site:hover {
+	border-bottom: 1px solid #89C4F4;
+}
+
 @media(max-width: 570px) {
 
 	ul.nav {

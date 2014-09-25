@@ -26,7 +26,12 @@ permalink: /portfolio/
 		back
 	</a>
 	<h2><%= project.name %>
-	<p><%= project.description%></p> 	
+	<p><%= project.description%></p>
+	<% if (project.url.site) { %>
+		<div>
+			<a class="visit-site" href="<%= project.url.site %>" target="_blank">visit site</a>
+		</div> 	
+	<% } %>
 	<img src="<%= project.images.screenshot %>" />
 </div>
 </script>
