@@ -53,7 +53,7 @@ a:hover {
 .header {
 	background-color: #FFF;
 border-bottom: 1px solid #eee;
-background-image: url("https://farm9.staticflickr.com/8427/7865768594_8d4cb2bfae_b.jpg");
+background-image: url("/images/bgimage.jpg");
 height: 215px;
 background-size: cover;
 }
