@@ -4,6 +4,7 @@ email: pserraino99@gmail.com
 description: "Paul Serraino is an Austin Texas based website developer."
 baseurl: ""
 url: "http://paulserraino.github.io"
+excerpt_separator: ""
 
 # Build settings
 markdown: kramdown

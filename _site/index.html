@@ -24,44 +24,35 @@
     <body>
 
     <header class="header">
-    <div>
-      <div class="col-1-2">
-        <h1 class="brand"><a href="/">Paul<br> Serraino</a></h1>
+      <div>
+        <h1 class="brand"><a href="/">Paul Serraino</a></h1>
         <span class="sub-title">web developer.</span>
       </div>
-      <div class="col-1-2">
-        <nav>
-          <div class="menu-icon">
-            <span class="x-mark hide"></span>
-            <span class="hamburger"></span>
-          </div>
-          <ul class="nav inline-list slider">
-            <li><a href="/">blog</a></li>
-            <li><a href="/portfolio/">work</a></li>
-            <li><a href="/about/">about</a></li>
-            <li><a href="https://github.com/paulserraino">code</a></li>
-            <li><a href="/resume/">resume</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
+      <nav>
+        <div class="menu-icon">
+          <span class="x-mark hide"></span>
+          <span class="hamburger"></span>
+        </div>
+        <ul class="nav inline-list slider">
+          <li><a href="/">Blog</a></li>
+          <li><a href="/projects/">Projects</a></li>
+          <li><a href="/about/">About</a></li>
+        </ul>
+      </nav>
 </header>
 
     
     <div class="container">
       <br><br>
-<h1 style="color: #ddd;">No Posts Yet.</h1>
+
  <ul class="post-list">
     
-        <!--
       <li>
-        <span class="post-meta">Jun 26, 2014</span>
-
         <h2>
-          <a class="post-link" href="/jekyll/update/2014/06/26/welcome-to-jekyll/">Welcome to Jekyll!</a>
+          <a class="post-link" href="/web/2014/10/20/getting-started-javascript-mv*/">Getting Started: Javascript MV*</a>
         </h2>
+        <span class="post-meta">Oct 20, 2014</span>
       </li>
-      -->
     
   </ul>
 
@@ -89,20 +80,29 @@
 				<i class="fa fa-twitter"></i>
 			</span>
 		</a></li>
-		<li><a href="http://www.linkedin.com/pub/paul-serraino/94/67b/70" target="_blank">
-			<span class="icon-bg">
-				<i class="fa fa-linkedin"></i>
-			</span>
-		</a></li>
-		<li><a href="https://www.youtube.com/channel/UC4jjKLXy4Z2nh5W3MUFkD4Q" target="_blank">
-			<span class="icon-bg">
-				<i class="fa fa-youtube"></i>
-			</span>
-		</a></li>
 	</ul>
 
 </div>
 </footer>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+	var mainListItems = document.querySelectorAll(".nav li");
+
+	(function animateNavList (index) {
+		if (index === 0) {
+			mainListItems[index].classList.add("pop-up");
+		}
+		setTimeout(function () {
+			mainListItems[index].classList.add("pop-up");
+
+			if (index < mainListItems.length - 1)
+				animateNavList(index+1);
+
+			return index;
+		}, 100);
+	})(0);
+});
+</script>
 
     </body>
 </html>

@@ -18,17 +18,26 @@
 				<i class="fa fa-twitter"></i>
 			</span>
 		</a></li>
-		<li><a href="http://www.linkedin.com/pub/paul-serraino/94/67b/70" target="_blank">
-			<span class="icon-bg">
-				<i class="fa fa-linkedin"></i>
-			</span>
-		</a></li>
-		<li><a href="https://www.youtube.com/channel/UC4jjKLXy4Z2nh5W3MUFkD4Q" target="_blank">
-			<span class="icon-bg">
-				<i class="fa fa-youtube"></i>
-			</span>
-		</a></li>
 	</ul>
 
 </div>
 </footer>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+	var mainListItems = document.querySelectorAll(".nav li");
+
+	(function animateNavList (index) {
+		if (index === 0) {
+			mainListItems[index].classList.add("pop-up");
+		}
+		setTimeout(function () {
+			mainListItems[index].classList.add("pop-up");
+
+			if (index < mainListItems.length - 1)
+				animateNavList(index+1);
+
+			return index;
+		}, 100);
+	})(0);
+});
+</script>

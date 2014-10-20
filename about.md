@@ -4,7 +4,6 @@ title: Paul Serraino | About
 permalink: /about/
 ---
 
-<h1>About Me</h1>
 <div class="col-1-2">
 	<img src="/images/mebnw.jpg" alt="me" class="selfie">
 </div>

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Paul Serraino | Portfolio
-permalink: /portfolio/
+title: Paul Serraino | Projects
+permalink: /projects/
 ---
 
 <div id="portfolio"></div>
@@ -21,7 +21,7 @@ permalink: /portfolio/
 
 <script type="text/x-template" id="project-template">
 <div class="project-container">
-	<a href="/portfolio/">
+	<a href="/projects/">
 		<i class="fa fa-chevron-left"></i>
 		back
 	</a>
