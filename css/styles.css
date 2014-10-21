@@ -279,6 +279,10 @@ span.c1 { color: #888; }
 
 @media(max-width: 588px) {
 
+	.header {
+		background-image: url("/images/mobile_rockfort.jpg");
+	}
+
 	ul.nav {
 		display: block;
 	}
