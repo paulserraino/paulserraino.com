@@ -15,8 +15,7 @@
 
     <!-- Custom CSS -->
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/main.css">
 
 </head>
 
@@ -87,12 +86,11 @@ document.addEventListener("DOMContentLoaded", function () {
 		}
 		setTimeout(function () {
 			mainListItems[index].classList.add("pop-up");
-
 			if (index < mainListItems.length - 1)
 				animateNavList(index+1);
-
-			return index;
 		}, 100);
+
+		return index;
 	})(0);
 });
 </script>

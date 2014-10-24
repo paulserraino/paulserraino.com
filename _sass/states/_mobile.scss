@@ -1,0 +1,19 @@
+@media(max-width: 588px) {
+
+	.header {
+		background-image: url("/images/mobile_rockfort.jpg");
+	}
+
+	ul.nav {
+		display: block;
+	}
+
+	.brand {
+		font-size: 35px;
+
+	}
+
+	.nav li:hover {
+		background-color: #eee;
+	}
+}

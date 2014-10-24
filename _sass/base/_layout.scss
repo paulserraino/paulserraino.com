@@ -1,0 +1,35 @@
+.container {
+	position: relative;
+	max-width: 700px;
+	margin: 0 auto;
+	min-height: 100%;
+}
+
+.center {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.hide {
+	visibility: hidden;
+}
+
+.inline-list li {
+	display: inline-block;
+	margin: 5px 18px 5px 5px;
+}
+
+.resp-img {
+	width: 100%;
+	box-shadow: 0px 0px 1px 0px #333;
+	border-radius: 5px;
+}
+
+.selfie {
+	width: 90%;
+	border-radius: 5px;
+}
+
+.link {
+	color: #E08283;
+}

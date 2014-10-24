@@ -1,0 +1,39 @@
+.header {
+	text-align: center;
+	background-color: #FFF;
+	border-bottom: 1px solid #eee;
+	background-image: url("/images/rockfort.jpg");
+	height: 215px;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	margin-bottom: 15px;
+}
+
+.brand {
+	font-size: 80px;
+	font-weight: 400;
+	margin: 0;
+}
+
+.brand a {
+	color: #333;
+}
+
+.sub-title {
+	font-size: 18px;
+	color: #555;
+	font-weight: 300;
+}
+
+
+.nav a {
+	font-size: 27px;
+	color: #FFF;
+}
+
+.nav a:hover {
+	color: #89C4F4;
+	border-bottom: 2px solid #89C4F4;
+}

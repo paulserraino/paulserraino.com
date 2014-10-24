@@ -1,0 +1,43 @@
+.pop-up {
+	-webkit-animation: popupAnimation 0.7s cubic-bezier(0.69,0.73,0.55,0.98);
+	-moz-animation: popupAnimation 0.7s cubic-bezier(0.69,0.73,0.55,0.98);
+	animation: popupAnimation 0.7s cubic-bezier(0.69,0.73,0.55,0.98);
+}
+
+/*
+	FIXME: refactor this mess!
+*/
+@-webkit-keyframes popupAnimation {
+	0% {
+		-webkit-transform: translateY(200px);
+	}
+	50% {
+		-webkit-transform: translateY(100px);
+	}
+	100% {
+		-webkit-transform: translateY(0px);
+	}
+}
+@-moz-keyframes popupAnimation {
+	0% {
+		-moz-transform: translateY(200px);
+	}
+	50% {
+		-moz-transform: translateY(100px);
+	}
+	100% {
+		-moz-transform: translateY(0px);
+	}
+}
+
+@keyframes popupAnimation {
+	0% {
+		transform: translateY(200px);
+	}
+	50% {
+		transform: translateY(100px);
+	}
+	100% {
+		transform: translateY(0px);
+	}
+}

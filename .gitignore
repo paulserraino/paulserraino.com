@@ -3,3 +3,4 @@ _site
 Gemfile.lock
 js/libs
 node_modules/
+.sass-cache/
