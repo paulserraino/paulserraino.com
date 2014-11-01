@@ -5,9 +5,9 @@ date:   2014-11-1 19:07:59
 categories: ios
 ---
 
-For the past two weeks or so i've been teaching myself how to development ios applications. So far, i've found Objective C to be a bit tricky at times. It's syntax is verbose and at first, it feels as if it's just brute force memorization. I'm begining to realize (thankfully) that it's not all memorization. The language is structured in a beautiful way, it just takes some time to get used to the syntax. I've decided to share my notes with everyone, in an effort to pass on what i've learn so far.
+For the past two weeks or so i’ve been teaching myself how to development ios applications. So far, i’ve found Objective C to be a bit tricky at times. It’s syntax is verbose and at first, it feels as if it’s just brute force memorization. I’m beginning to realize (thankfully) that it’s not all memorization. The language is structured in a beautiful way, it just takes some time to get used to the syntax. I’ve decided to share my notes with everyone, in an effort to pass on what i’ve learn so far.
 
-If your background is in object orited programming and you don't know any Objective-C, than this blog post is for you.
+If your background is in object oriented programming and you don't know any Objective-C, than this blog post is for you.
 
 
 ##Methods
