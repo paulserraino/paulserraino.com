@@ -7,12 +7,66 @@
     <atom:link href="http://paulserraino.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>iOS First Impressions</title>
-        <description>
+        <title>Objective-C Notes: OOP</title>
+        <description>&lt;p&gt;For the past two weeks or so i’ve been teaching myself how to development ios applications. I’ve decided to share my notes with everyone.&lt;/p&gt;
+
+&lt;p&gt;If your background is in object orited programming and you don’t know any Objective-C, than this blog post is for you.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-basics&quot;&gt;The Basics&lt;/h2&gt;
+&lt;p&gt;Much like C++, in Objective-C classes are implimented in to seprarate files a ‘header’ and ‘implimentation’ file, but unlike C++ you don’t use the keyword ‘class’ to define classes. The difference between a class prototype and implimentation is explict. Instance variables and prototype methods are defined in @interface. Method definitions are in @implimentation.&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-weight: bold&quot;&gt;Person.h&lt;/span&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objective-c&quot; data-lang=&quot;objective-c&quot;&gt;&lt;span class=&quot;cp&quot;&gt;#import &amp;lt;Foundation/Foundation.h&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// classname : superClass&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;@interface&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Person&lt;/span&gt; : &lt;span class=&quot;bp&quot;&gt;NSObject&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;//instance variables&lt;/span&gt;
+    &lt;span class=&quot;bp&quot;&gt;NSString&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;firstName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;age&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;//methods to set and get instance variables&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;-(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;setFirstName:&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;NSString&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;newfirstName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;-(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;NSString&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;firstName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;-(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;setAge:&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;newAge&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;-(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;age&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;@end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-weight: bold&quot;&gt;Person.m&lt;/span&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objective-c&quot; data-lang=&quot;objective-c&quot;&gt;&lt;span class=&quot;cp&quot;&gt;#import &amp;quot;Person.h&amp;quot;&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;@implementation&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Person&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;-(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;setFirstName:&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;NSString&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;newfirstName&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;_firstName&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;newfirstName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;-(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;NSString&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;firstName&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_firstName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;-(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;setAge:&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;newAge&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;_age&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;newAge&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;-(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;age&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_age&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;@end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;To alternate between header and implimentation files use: &lt;b&gt;ctrl + command + up arrow&lt;b&gt;&lt;/b&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;property&quot;&gt;@property&lt;/h2&gt;
+
 </description>
-        <pubDate>Fri, 24 Oct 2014 14:07:59 -0500</pubDate>
-        <link>http://paulserraino.github.io/ios/2014/10/24/ios-first-impressions/</link>
-        <guid isPermaLink="true">http://paulserraino.github.io/ios/2014/10/24/ios-first-impressions/</guid>
+        <pubDate>Fri, 31 Oct 2014 14:07:59 -0500</pubDate>
+        <link>http://paulserraino.github.io/ios/2014/10/31/objective-notes-oop/</link>
+        <guid isPermaLink="true">http://paulserraino.github.io/ios/2014/10/31/objective-notes-oop/</guid>
       </item>
     
       <item>

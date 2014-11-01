@@ -2,8 +2,9 @@
 	text-align: center;
 	background-color: #FFF;
 	border-bottom: 1px solid #eee;
-	background-image: url("/images/rockfort.jpg");
-	height: 215px;
+	border-top: 2px solid #222;
+	background-image: url("/images/bgs/rockfort.jpg");
+	height: 190px;
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -15,6 +16,7 @@
 	font-size: 80px;
 	font-weight: 400;
 	margin: 0;
+	padding-top: 20px;
 }
 
 .brand a {
@@ -29,11 +31,12 @@
 
 
 .nav a {
-	font-size: 27px;
-	color: #FFF;
+	font-size: 23px;
+	color: #FFFC00;
+	font-weight: 400;
 }
 
 .nav a:hover {
-	color: #89C4F4;
-	border-bottom: 2px solid #89C4F4;
+	color: #222;
+	border-bottom: 1px solid #222;
 }

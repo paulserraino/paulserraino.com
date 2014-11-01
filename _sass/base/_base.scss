@@ -8,6 +8,7 @@ body {
 body {
   background-color: #FFFFFF;
   color: #333;
+  text-rendering: optimizeLegibility;
 }
 
 h1, h2, h3, h4 {
@@ -31,4 +32,5 @@ a:hover {
 p {
 	line-height: 1.4;
 	color: #333;
+	font-size: 16px;
 }

@@ -5,14 +5,22 @@
 }
 
 .post-date {
-	color: #ddd;
-	font-size: 14px;
+	color: #ccc;
+	font-size: 15px;
 }
 
 .post-link {
 	color: #333;
+	font-weight: 600;
+	font-size: 20px;
 }
 
 .rss-subscribe {
 	margin-top: 50px;
+}
+
+.meta {
+	margin: 0;
+	color: #ddd;
+	font-size: 14px;
 }

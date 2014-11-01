@@ -1,7 +1,13 @@
 .highlight {
 	background-color: #333;
 	color: #FFF;
+	border-radius: 5px;
 }
+
+.highlight > pre {
+	padding: 5px;
+}
+
 span.p { color: #86E2D5; }
 span.kd { color: #FDE3A7; }
 span.s2 { color: #BE90D4; }
