@@ -2,6 +2,7 @@
 
 	.header {
 		background-image: url("/images/mobile_rockfort.jpg");
+		height: 140px;
 	}
 
 	ul.nav {
@@ -10,10 +11,16 @@
 
 	.brand {
 		font-size: 35px;
-
+	}
+	.brand a {
+		color: #222;
 	}
 
 	.nav li:hover {
 		background-color: #eee;
+	}
+
+	.nav a {
+		color: #222;
 	}
 }
