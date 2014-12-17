@@ -1,15 +1,22 @@
 .highlight {
-	background-color: #333;
-	color: #FFF;
-	border-radius: 5px;
+	background-color: #fdfdfd;
+	color: #000;
+	border-radius: 0px;
+	box-shadow: 0px 0px 1px 1px #EEE;
+}
+
+code {
+	font-size: 13px;
 }
 
 .highlight > pre {
 	padding: 5px;
 }
 
-span.p { color: #86E2D5; }
-span.kd { color: #FDE3A7; }
+span.p { color: #000; }
+span.kd { color: #FF8801; }
 span.s2 { color: #BE90D4; }
+span.n { color: #a71d5d; }
+span.s { color: #df5000; }
 span.k { color: #81CFE0; }
 span.c1 { color: #888; }

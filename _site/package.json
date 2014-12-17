@@ -3,11 +3,14 @@
   "version": "0.0.2",
   "license": "MIT",
   "devDependencies": {
-	    "gulp": "~3.8.6",
-	    "browserify": "~5.9.1",
-	    "vinyl-source-stream": "~0.1.1",
-	    "jquery": "~2.1.1",
-	    "underscore": "~1.6.0",
-	    "routely-js": "~0.0.7"
-	}
+    "gulp": "~3.8.6",
+    "browserify": "~5.9.1",
+    "vinyl-source-stream": "~0.1.1",
+    "jquery": "~2.1.1",
+    "underscore": "~1.6.0",
+    "routely-js": "~0.0.7"
+  },
+  "scripts": {
+  	"start": "jekyll serve"
+  }
 }
