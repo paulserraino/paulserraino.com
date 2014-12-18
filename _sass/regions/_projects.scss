@@ -4,7 +4,8 @@
 }
 
 .project-list li a {
-	font-size: 22px;	
+	font-size: 16px;
+	color: #222;	
 }
 
 .project-container {
@@ -16,7 +17,8 @@
 }
 .project-container img {
 	width: 100%;
-	max-width: 650px;
+	max-width: 425px;
+	box-shadow: 2px 2px 8px 0px #eee;
 }
 
 .project-container .visit-site {

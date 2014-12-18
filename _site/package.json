@@ -11,6 +11,6 @@
     "routely-js": "~0.0.7"
   },
   "scripts": {
-  	"start": "jekyll serve"
+  	"start": "jekyll serve --watch"
   }
 }
