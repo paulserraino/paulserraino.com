@@ -3,7 +3,7 @@
 	background-color: #FFF;
 	border-bottom: 1px solid #eee;
 	border-top: 2px solid #222;
-	background-image: url("/images/bgs/rsz_lights.jpg");
+	background-image: url($bgImg);
 	height: 190px;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -19,7 +19,7 @@
 }
 
 .brand a {
-	color: #fafafa;
+	color: $primaryColor;
 }
 
 .sub-title {
@@ -28,10 +28,13 @@
 	font-weight: 300;
 }
 
+.nav {
+	padding: 0px;
+}
 
 .nav a {
 	font-size: 21px;
-	color: #fafafa;
+	color: $primaryColor;
 	font-weight: 400;
 }
 
