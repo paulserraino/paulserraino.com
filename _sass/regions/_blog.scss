@@ -1,7 +1,12 @@
+.post-list {
+	padding: 0;
+}
+
 .post-list li {
 	border-bottom: 1px solid #ddd;
 	margin-bottom: 10px;
 	padding: 10px;
+	list-style: none;
 }
 
 .post-date {
