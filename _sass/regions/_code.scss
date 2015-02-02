@@ -1,22 +1,49 @@
 .highlight {
-	background-color: #fdfdfd;
-	color: #000;
-	border-radius: 0px;
+	//background-color: #121419;
+	background-color: #FFF;
+	color: #333;
+	border-radius: 3px;
+	border: 1px solid #ddd;
 	box-shadow: 0px 0px 1px 1px #EEE;
 }
-
+.highlight.lines {
+	box-shadow: none;
+	border: none;
+}
 code {
-	font-size: 13px;
+	font-size: 14px;
 }
 
 .highlight > pre {
 	padding: 5px;
+	margin: 5px;
 }
 
-span.p { color: #000; }
+span.p { color: #fff; }
 span.kd { color: #000; }
 span.s2 { color: #E74C3C; }
-span.n { color: #a71d5d; }
+span.n { color: #E082DC; }
 span.s { color: #df5000; }
 span.k { color: #5C97BF; }
 span.c1 { color: #888; }
+
+/* light */
+.language-javascript {
+	span.kd { color: #3F86B3;}
+	span.nx { color: #333; }
+	span.p { color: #333; }
+	span.k { color: #A71D62; }
+	span.s2, span.s1 { color: #DF5000; }
+
+}
+
+/* dark
+.language-javascript {
+	span.kd { color: #00DDE8;}
+	span.nx { color: #ffffff; }
+	span.p { color: #ffffff; }
+	span.k { color: #FF0052; }
+	span.s2 { color: #E6E166; }
+	span.s1 { color: #E6E166; }
+}
+*/

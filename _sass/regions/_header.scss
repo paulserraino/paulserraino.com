@@ -13,13 +13,13 @@
 
 .brand {
 	font-size: 55px;
-	font-weight: 400;
+	font-weight: 500;
 	margin: 0;
 	padding-top: 36px;
 }
 
 .brand a {
-	color: $primaryColor;
+	color: $secondaryColor;
 }
 
 .sub-title {
@@ -33,9 +33,9 @@
 }
 
 .nav a {
-	font-size: 21px;
-	color: $primaryColor;
-	font-weight: 400;
+	font-size: 27px;
+	color: $secondaryColor;
+	font-weight: 500;
 }
 
 .nav a:hover {

@@ -9,7 +9,6 @@ My current side project is building a web analytics tool for some my client's we
 
 In this post I'd like share some of what I've learned, mainly counting nested arrays. This is going to be accomplished using MongoDB [aggregates](http://docs.mongodb.org/manual/reference/command/aggregate/#dbcmd.aggregate).
 
->>####The Goal
 >Count the number of pageviews for each page in each website.
 
 <span>I'm starting out with the json shown below.</span>
@@ -17,7 +16,7 @@ In this post I'd like share some of what I've learned, mainly counting nested ar
 <div id="shorten" style="height: 334px;
 overflow: hidden;">
 	
-{% highlight objective-c%}
+{% highlight javascript linenos %}
 [
   {
     "_id": "548b6ed9acfe832def5b2b99",
@@ -104,7 +103,7 @@ Next we're going to $project our newly unwound data. The [$project](http://docs.
 Now that we have the number of pageviews, our work here is essentially complete, the only problems is our data looks kinda messy. To clean it up we'll use the [$group](http://docs.mongodb.org/manual/reference/operator/aggregation/group) operator to group the attributes that we want. The first and most important step in grouping is decided what you want to group by, in my case I choose to group by website id. Keep in mind after unwinding a couple of times your data might end up being unorganized, so when you want to regroup choose something very specific to group by.
 
 <span>Translating the steps into code.</span>
-{% highlight objective-c%}
+{% highlight javascript linenos %}
 var userId = req.params.id || req.query.userId;
 UserModel.aggregate([
 	{
@@ -151,7 +150,7 @@ UserModel.aggregate([
 <strong>Important gotcha:</strong> If your id happens to be a string, make sure you convert it to a mongodb objectId using `mongoose.Type.Object(stringId)` 
 
 ###final result
-{% highlight objective-c%}
+{% highlight javascript linenos %}
 [
   {
     "_id": "5490fcc58c4947000025cb49",

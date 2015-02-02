@@ -9,7 +9,7 @@ Javascript's functional (almost [LISP](http://en.wikipedia.org/wiki/Lisp_%28prog
 
 An immediately-invoked function expression (IIFE, pronounced "iffy") is an anonymous function that calls itself. IIFE's are fairly flexible in how you implement them and they're used everywhere in JS, mainly in creating a local scope.
 
-{% highlight javascript%}
+{% highlight javascript linenos %}
 (function (localArgs) {
 	//local scope
 	// where localArgs = args 	
@@ -24,20 +24,23 @@ An immediately-invoked function expression (IIFE, pronounced "iffy") is an anony
 
 Okay, now we can start talking about the fun stuff, recursive IIFEs. The idea of recursion is quite simple, a function calls itself infinitely many times unless a base case is given. The base case, at least for us, will be the number of iterations. 
 
-###Example
+##Example
+
 In the example shown below, a recursive IIFE is used to count down and display the numbers 1 through 10.
 
-{% highlight javascript%}
+{% highlight javascript linenos %}
 (function next(i) {
 	console.log(i);
 	if (!(i >= 10)) next(i + 1);
 })(1);
 {% endhighlight %}
 
-###Practical Example
+
+##Practical Example
+
 In this next example, I'm using a recursive IIFE to perform a batch operation with leveldb. Only calling `next()` after each datum is `put` into the db.
 
-{% highlight javascript%}
+{% highlight javascript linenos %}
 var level = require("level")
 var db = level("./yourdb")
 
@@ -55,7 +58,7 @@ var batch = db.batch()
 })(0)
 {% endhighlight %}
 
-###Useful Resources
+##Useful Resources
 
 - [Ben Altman on IIFE](http://benalman.com/news/2010/11/immediately-invoked-function-expression)
 - [Recursion - wolfram](http://mathworld.wolfram.com/topics/Recursion.html)
