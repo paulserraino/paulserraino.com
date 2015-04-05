@@ -5,7 +5,7 @@ date:   2015-02-02 19:07:59
 categories: web
 ---
 
-> The worst kind of error message is no message. 
+> The worst kind of error message is no error message. 
 
 Debugging code can be a big challenge. This is especially true when working with a large unfamiliar code base and is certainly true when writing a ton of javascript code. I’ve definitely ran into my fair share of issues like: random undefined variables, dealing with globals, crying about commas (why the heck is node.js fine with `x = { a: 1,}`), unexpected stack overflows, the list goes on. Luckily there are some ways to deal with code going wrong. 
 
