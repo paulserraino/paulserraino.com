@@ -9,7 +9,7 @@
       <item>
         <title>Debugging Javascript</title>
         <description>&lt;blockquote&gt;
-  &lt;p&gt;The worst kind of error message is no message. &lt;/p&gt;
+  &lt;p&gt;The worst kind of error message is no error message. &lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Debugging code can be a big challenge. This is especially true when working with a large unfamiliar code base and is certainly true when writing a ton of javascript code. I’ve definitely ran into my fair share of issues like: random undefined variables, dealing with globals, crying about commas (why the heck is node.js fine with &lt;code&gt;x = { a: 1,}&lt;/code&gt;), unexpected stack overflows, the list goes on. Luckily there are some ways to deal with code going wrong. &lt;/p&gt;
