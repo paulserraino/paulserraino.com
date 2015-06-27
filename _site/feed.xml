@@ -7,6 +7,15 @@
     <atom:link href="http://paulserraino.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Transform Origin Property</title>
+        <description>
+</description>
+        <pubDate>Sat, 27 Jun 2015 14:07:59 -0500</pubDate>
+        <link>http://paulserraino.github.io/web/2015/06/27/transform-origin/</link>
+        <guid isPermaLink="true">http://paulserraino.github.io/web/2015/06/27/transform-origin/</guid>
+      </item>
+    
+      <item>
         <title>Debugging Javascript</title>
         <description>&lt;blockquote&gt;
   &lt;p&gt;The worst kind of error message is no error message. &lt;/p&gt;
