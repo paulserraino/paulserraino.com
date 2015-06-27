@@ -1,0 +1,32 @@
+.tags {
+  position: absolute;
+  text-align: right;
+  right: 100%;
+  top: 30px;
+  width: 100%;
+}
+
+.tag {
+  background-color: #fafafa;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 5px 6px;
+}
+
+.tag-js {
+  background-color: #FCCC0A;
+  color: #333;
+}
+
+.tag-css {
+  background-color: #2850AD;
+  color: #fff;
+  padding: 5px 2px;
+}
+
+.tag-op {
+  background-color: #A7A9AC;
+  color: #fff;
+}
