@@ -8,11 +8,28 @@
     
       <item>
         <title>Transform Origin Property</title>
-        <description>
+        <description>&lt;p&gt;The level of graphical abtraction CSS tranforms brings to to browser never ceases to impress me.&lt;/p&gt;
+
+&lt;p&gt;Resources&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin&quot;&gt;transoform-origin docs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         <pubDate>Sat, 27 Jun 2015 14:07:59 -0500</pubDate>
         <link>http://paulserraino.github.io/web/2015/06/27/transform-origin/</link>
         <guid isPermaLink="true">http://paulserraino.github.io/web/2015/06/27/transform-origin/</guid>
+      </item>
+    
+      <item>
+        <title>TIL</title>
+        <description>&lt;p&gt;I’ve been working at a startup in Austin, Tx for about six months. So far, I can confidently say I’ve learn a ton and I’m still learning a lot on a daily basis.&lt;/p&gt;
+
+&lt;p&gt;A few weeks ago, a coworker and I had a conversation about possibly starting an engineering blog, to document what we’ve learned. I thought it was a great idea, which is why I’ve decided to start blogging again. I want to share my progress as a developer with everyone, how ever trivial each topic might seem. It’s easy to solve a problem then move on to the next issue, without any intention to document or share one’s experience with the world. TIL, everyone should blog more.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 27 Jun 2015 13:07:59 -0500</pubDate>
+        <link>http://paulserraino.github.io/opinion/2015/06/27/today-i-learned/</link>
+        <guid isPermaLink="true">http://paulserraino.github.io/opinion/2015/06/27/today-i-learned/</guid>
       </item>
     
       <item>

@@ -11,10 +11,10 @@ layout: default
             {% endfor %}
           </div>
           <div>
-            <div class="">{{ post.date | date: "%B %d, %Y" }}</div>
             <h2>
               <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
             </h2>
+            <div class="post-date">{{ post.date | date: "%B %d, %Y" }}</div>
             <p>{{ post.content | strip_html | truncatewords:55}}</p>
             <a href="{{ post.url }}">Read more...</a>
           </div>
