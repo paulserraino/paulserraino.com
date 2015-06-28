@@ -7,21 +7,6 @@
     <atom:link href="http://paulserraino.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>Transform Origin Property</title>
-        <description>&lt;p&gt;The level of graphical abtraction CSS tranforms brings to to browser never ceases to impress me.&lt;/p&gt;
-
-&lt;p&gt;Resources&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin&quot;&gt;transoform-origin docs&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 27 Jun 2015 14:07:59 -0500</pubDate>
-        <link>http://paulserraino.github.io/web/2015/06/27/transform-origin/</link>
-        <guid isPermaLink="true">http://paulserraino.github.io/web/2015/06/27/transform-origin/</guid>
-      </item>
-    
-      <item>
         <title>TIL</title>
         <description>&lt;p&gt;I’ve been working at a startup in Austin, Tx for about six months. So far, I can confidently say I’ve learn a ton and I’m still learning a lot on a daily basis.&lt;/p&gt;
 
