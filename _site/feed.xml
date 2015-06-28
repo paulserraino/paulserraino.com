@@ -7,6 +7,85 @@
     <atom:link href="http://paulserraino.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Transform Origin Property</title>
+        <description>&lt;style&gt;
+  .rot {
+  width: 100px;
+  height: 100px;
+  background-color: hsla( 0, 100%, 50%, 0.7 );
+}
+
+.rot-x {
+  transform-origin: 0px 50px;
+  animation: rotate-x 6s;
+  animation-iteration-count: infinite;
+}
+
+.rot-y {
+  transform-origin: 50px 0px;
+  animation: rotate-y 6s;
+  animation-iteration-count: infinite;
+}
+
+.rot-z {
+  transform-origin: 50px 50px 0px;
+  animation: rotate-z 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotate-x {
+    0%   { transform: perspective(1000px) rotatex(0deg); }
+    100% { transform: perspective(1000px) rotatex(360deg); }
+}
+
+@keyframes rotate-y {
+    0%   { transform: perspective(1000px) rotateY(0deg); }
+    100% { transform: perspective(1000px) rotateY(360deg); }
+}
+
+@keyframes rotate-z {
+    0%   { transform: perspective(1000px) rotateZ(0deg); }
+    100% { transform: perspective(1000px) rotateZ(360deg); }
+}
+&lt;/style&gt;
+
+&lt;p&gt;The level of graphical abtractions CSS tranforms brings to the browser never ceases to impress me. The &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin&quot;&gt;&lt;code&gt;transform-origin&lt;/code&gt;&lt;/a&gt; property allows users to set the origin of a transformation, for a given element. When combined with &lt;code&gt;rotate&lt;/code&gt; and &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/perspective&quot;&gt;&lt;code&gt;perspective&lt;/code&gt;&lt;/a&gt; you get a nice three dimensional effect.&lt;/p&gt;
+
+&lt;table class=&quot;table&quot;&gt;
+  &lt;tr&gt;
+    &lt;td&gt;
+      &lt;img src=&quot;/images/axis-of-rotation.png&quot; alt=&quot;axis of rotation&quot; /&gt;
+    &lt;/td&gt;
+    &lt;td&gt;
+      &lt;div class=&quot;rot-container col-1-2&quot;&gt;
+        &lt;div class=&quot;rot rot-x&quot;&gt;rotateX&lt;/div&gt;
+        &lt;div class=&quot;rot rot-y&quot;&gt;rotateY&lt;/div&gt;
+        &lt;div class=&quot;rot rot-z&quot;&gt;rotateZ&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Below are a few examples I made the other day.&lt;/p&gt;
+
+&lt;p data-height=&quot;268&quot; data-theme-id=&quot;0&quot; data-slug-hash=&quot;ZGvbZZ&quot; data-default-tab=&quot;result&quot; data-user=&quot;paulserraino&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/paulserraino/pen/ZGvbZZ/&quot;&gt;unbox&lt;/a&gt; by Paul Serraino (&lt;a href=&quot;http://codepen.io/paulserraino&quot;&gt;@paulserraino&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+&lt;p data-height=&quot;268&quot; data-theme-id=&quot;0&quot; data-slug-hash=&quot;zGpKzr&quot; data-default-tab=&quot;result&quot; data-user=&quot;paulserraino&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/paulserraino/pen/zGpKzr/&quot;&gt;reveal&lt;/a&gt; by Paul Serraino (&lt;a href=&quot;http://codepen.io/paulserraino&quot;&gt;@paulserraino&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Resources&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin&quot;&gt;transoform-origin docs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 28 Jun 2015 14:07:59 -0500</pubDate>
+        <link>http://paulserraino.github.io/web/2015/06/28/transform-origin/</link>
+        <guid isPermaLink="true">http://paulserraino.github.io/web/2015/06/28/transform-origin/</guid>
+      </item>
+    
+      <item>
         <title>TIL</title>
         <description>&lt;p&gt;I’ve been working at a startup in Austin, Tx for about six months. So far, I can confidently say I’ve learn a ton and I’m still learning a lot on a daily basis.&lt;/p&gt;
 
