@@ -7,7 +7,7 @@ tags:
   - js
 ---
 
-The default repl that ship swith node is good, but if you’re a hardcore node developer it probably isn’t enough. Taking the time to write your own repl is worth it, as it comes in handy quite a lot.
+The default repl that ships with node is good, but if you’re a hardcore node developer it probably isn’t enough. Taking the time to write your own repl is worth it, as it comes in handy quite a lot.
 
 Below is an example of a simple repl I made, that does the following:
 
