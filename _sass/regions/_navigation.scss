@@ -1,0 +1,29 @@
+
+.navigation {
+
+  & nav {
+    width: 159px;
+    z-index: 1000;
+    background-color: rgba(249,249,249,0.7);
+    -webkit-transform: translateZ(0);
+  }
+
+  & ul {
+    padding: 0px;
+  }
+
+  & li {
+    list-style: none;
+    margin-top: 5px;
+  }
+
+  & li > a {
+    color: #333;
+    font-size: 18px;
+    margin-left: 20px;
+    transition: all .3s;
+  }
+  & li > a:hover {
+    color: $primaryColor;
+  }
+}

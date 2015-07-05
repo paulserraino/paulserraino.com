@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+cd generators
+node node_modules/yo/lib/cli.js $1
+cd ..

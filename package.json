@@ -4,6 +4,7 @@
   "license": "MIT",
   "scripts": {
     "prestart": "./bin/prestart",
-    "start": "jekyll serve --watch"
+    "start": "jekyll serve --watch",
+    "new-post": "./bin/yo generators/blog-post.js"
   }
 }
