@@ -4,7 +4,6 @@ title:  "Custom Node REPL"
 date:   2015-06-29 19:07:59
 categories: web
 tags:
-  - js
 ---
 
 The default repl that ships with node is good, but if you’re a hardcore node developer it probably isn’t enough. Taking the time to write your own repl is worth it, as it comes in handy quite a lot.

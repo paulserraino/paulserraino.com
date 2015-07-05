@@ -4,7 +4,6 @@ title:  "TIL"
 date:   2015-06-27 18:07:59
 categories: opinion
 tags:
-  - op
 ---
 
 I've been working at a startup in Austin, Tx for about six months. So far, I can confidently say I've learn a ton and I'm still learning a lot on a daily basis.

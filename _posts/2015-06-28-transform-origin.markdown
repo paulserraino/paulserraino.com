@@ -4,7 +4,6 @@ title:  "Transform Origin Property"
 date:   2015-06-28 19:07:59
 categories: web
 tags:
-  - css
 ---
 
 <style>
