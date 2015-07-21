@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Refactoring Conditional Statements"
-date:   2015-07-18 18:07:59
+date:   2015-07-21 18:07:59
 categories: web
 tags:
 ---
