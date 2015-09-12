@@ -28,6 +28,10 @@ body {
   font-family: monospace;
 }
 
+.inline-list {
+  padding: 0px;
+}
+
 .inline-list li {
   display: inline;
   margin-right: 10px;
