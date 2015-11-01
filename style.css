@@ -4,6 +4,8 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  border: 6px solid;
+  height: 98%;
 }
 body {
   color: #222;
@@ -39,7 +41,7 @@ body {
 }
 
 a {
-  color: #FFCC4D;
+  color: #FF5D5D;
   text-decoration: none;
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
