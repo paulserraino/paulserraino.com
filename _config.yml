@@ -1,0 +1,16 @@
+# Site settings
+title: Paul Serraino
+email: pserraino99@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Paul Serraino is a Web Developer from Austin Texas.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://paulserraino.com" # the base hostname & protocol for your site
+twitter_username: pauljstx
+github_username:  paulserraino
+
+# Build settings
+markdown: kramdown
+
+sass:
+  sass_dir: assets
+  style: :compressed

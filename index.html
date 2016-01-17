@@ -1,20 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="style.css">
-  <title>Paul Serraino</title>
-</head>
-<body>
-  <h1 class="title">Paul Serraino</h1>
-  <h3 class="sub-title">software <span class="lambda">&#x3bb;</span> texas</h3>
+---
+layout: default
+---
 
-  <ul class="inline-list">
-    <li><a href="https://github.com/paulserraino">github</a></li>
-    <li><a href="https://twitter.com/pauljstx">twitter</a></li>
-    <li><a href="https://www.linkedin.com/pub/paul-serraino/94/67b/70">linkedin</a></li>
-    <li><a href="#/coming-soon">blog</a></li>
+<div class="home">
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta" data-date="{{ post.date }}">{{ post.date | date_to_string }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
   </ul>
 
-</body>
-</html>
+</div>
