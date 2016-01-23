@@ -4,6 +4,7 @@
 .site-header {
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
+    font-family: monospace;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -184,7 +185,7 @@
 
 .post-link {
     display: block;
-    font-size: 22px;
+    font-size: 16px;
 }
 
 .post-list .post-meta {
@@ -200,10 +201,16 @@
     margin-bottom: $spacing-unit;
 }
 
+.post-header .post-meta {
+    text-align: center;
+}
+
 .post-title {
     font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
+    text-align: center;
+    font-family: monospace;
 
     @include media-query($on-laptop) {
         font-size: 36px;

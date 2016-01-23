@@ -11,6 +11,8 @@ github_username:  paulserraino
 # Build settings
 markdown: kramdown
 
+excerpt_separator: "" 
+
 sass:
   sass_dir: assets
   style: :compressed
