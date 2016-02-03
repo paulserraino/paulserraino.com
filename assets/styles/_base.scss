@@ -95,14 +95,12 @@ h1, h2, h3, h4, h5, h6 {
 a {
     color: $brand-color;
     text-decoration: none;
-    transition: all 0.5s;
 
     &:visited {
     }
 
     &:hover {
         color: lighten($brand-color, 15%);
-        text-decoration: underline;
     }
 }
 
