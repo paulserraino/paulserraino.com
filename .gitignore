@@ -6,3 +6,4 @@ js/libs
 node_modules/
 .sass-cache/
 _posts/*.draft.markdown
+npm-debug.log

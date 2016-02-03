@@ -4,7 +4,6 @@
 .site-header {
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
-    font-family: monospace;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -13,13 +12,13 @@
 .site-title {
     font-size: 26px;
     line-height: 56px;
-    letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
+    color: $text-color;
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: $text-color;
     }
 }
 
@@ -201,16 +200,9 @@
     margin-bottom: $spacing-unit;
 }
 
-.post-header .post-meta {
-    text-align: center;
-}
-
 .post-title {
     font-size: 42px;
-    letter-spacing: -1px;
     line-height: 1;
-    text-align: center;
-    font-family: monospace;
 
     @include media-query($on-laptop) {
         font-size: 36px;

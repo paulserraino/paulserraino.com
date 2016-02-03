@@ -2,7 +2,7 @@
 title: Paul Serraino
 email: pserraino99@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Paul Serraino is a Web Developer from Austin Texas.
+  Paul Serraino is a Web Developer from Austin Texas. He's the founder of Tiny Satellites Consulting and a master of all things web. 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://paulserraino.com" # the base hostname & protocol for your site
 twitter_username: pauljstx
@@ -11,8 +11,11 @@ github_username:  paulserraino
 # Build settings
 markdown: kramdown
 
-excerpt_separator: "" 
+excerpt_separator: ""
 
 sass:
-  sass_dir: assets
+  sass_dir: assets/styles
   style: :compressed
+
+exclude:
+  - node_modules
