@@ -25,6 +25,7 @@
     }
 
     &:hover {
+        color: $text-color;
         border-bottom: 2px solid $text-color;
     }
 }
