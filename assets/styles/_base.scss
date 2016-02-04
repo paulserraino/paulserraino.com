@@ -128,9 +128,10 @@ blockquote {
  */
 pre,
 code {
-    font-size: 15px;
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font-size: 12px;
     border-radius: 3px;
-    background-color: #fff;
+    background-color: #FDFDFD;
 }
 
 code {
