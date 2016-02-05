@@ -1,0 +1,129 @@
+
+$cv-primary-color: #59ABE3;
+
+// Header
+.cv-header {
+    position: absolute;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding-top: 95px;
+    padding-bottom: 95px;
+    background-size: cover;
+    width: 100%;
+    left: 0;
+    top: 160px;
+    background-image: url('/assets/images/dev.jpeg');
+    color: #fff;
+}
+
+.cv-header-container {
+    height: 255px;
+}
+
+.cv-header .cv-header-name {
+    margin: 0;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.cv-header-links {
+    position: relative;
+    top: -30px;
+}
+
+.cv-header-links a {
+    color: $cv-primary-color;
+
+    &:hover {
+        color: $cv-primary-color;
+        text-decoration: underline;
+    }
+}
+
+.cv-section {
+    margin-top: 20px;
+}
+
+.cv-section-title {
+    font-weight: 500;
+    border-bottom: 1px solid #eee;
+    color: $cv-primary-color;
+}
+
+// About Me
+
+.cv-info {
+    padding: 20px;
+}
+
+.cv-info .big-text {
+    text-transform: capitalize;
+    font-size: 35px;
+}
+
+.cv-info a {
+    color: $cv-primary-color;
+}
+
+// Skills
+
+.cv-skills-list {
+    list-style: none;
+    margin: 0;
+}
+
+.cv-skills-list li > p {
+    margin-bottom: 5px;
+}
+
+// Work Experience
+
+.cv-job-company {
+    display: inline-block;
+    font-weight: 500;
+    margin: 0;
+}
+
+.cv-job-title {
+    display: inline;
+}
+
+.cv-job-date {
+    display: block;
+    font-size: 12px;
+}
+
+.cv-job-description-list {
+    list-style-type: none;
+
+    & li:before {
+        content: "- ";
+    }
+}
+
+// Community
+
+.cv-community-title {
+    font-weight: 500;
+    margin-bottom: 0px;
+    display: inline-block;
+}
+
+.cv-community-role {
+    display: inline;
+}
+
+.cv-community-tasks {
+    list-style-type: none;
+
+    & li:before {
+        content: "- ";
+    }
+}
+
+// Open Source
+
+.cv-section .cv-open-source-project-name {
+    font-weight: 500;
+    margin: 0;
+}

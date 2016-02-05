@@ -15,7 +15,8 @@ $spacing-unit:     30px;
 
 $text-color:       #424242;
 $background-color: #ffffff;
-$brand-color:      #2a7ae2;
+//$brand-color:      #2a7ae2;
+$brand-color:      #59ABE3;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -45,5 +46,6 @@ $on-laptop:        800px;
 @import
         "base",
         "layout",
+        "cv",
         "syntax-highlighting"
 ;
