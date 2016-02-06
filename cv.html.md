@@ -13,8 +13,7 @@ permalink: /cv/
 <a href="#">pdf version</a>
 <div class="cv-header-container">
     <div class="cv-header">
-        <h2 class="cv-header-name">Paul Serraino</h2>
-        <span class="cv-header-title">Full Stack Web Developer</span>
+        <h2 class="cv-header-name">Full Stack Web Developer</h2>
     </div>
 </div>
 

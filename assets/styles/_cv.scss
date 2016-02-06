@@ -1,5 +1,5 @@
 
-$cv-primary-color: #59ABE3;
+$cv-primary-color: $brand-color;
 
 // Header
 .cv-header {
@@ -11,13 +11,13 @@ $cv-primary-color: #59ABE3;
     background-size: cover;
     width: 100%;
     left: 0;
-    top: 160px;
+    top: 58px;
     background-image: url('/assets/images/dev.jpeg');
     color: #fff;
 }
 
 .cv-header-container {
-    height: 255px;
+    height: 115px;
 }
 
 .cv-header .cv-header-name {
@@ -28,7 +28,8 @@ $cv-primary-color: #59ABE3;
 
 .cv-header-links {
     position: relative;
-    top: -30px;
+    text-align: right;
+    top: 180px;
 }
 
 .cv-header-links a {
