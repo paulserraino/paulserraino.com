@@ -80,7 +80,7 @@ permalink: /cv/
         <span class="cv-job-date">May 2013 - August 2014</span>
         <ul class="cv-job-description-list">
             <li>built interactive web forms for clients</li>
-            <li>built a port for managing client’s service requests</li>
+            <li>built a portal for managing client’s service requests</li>
             <li>maintained the company’s Oracle database</li>
         </ul>
     </div>
@@ -104,7 +104,7 @@ permalink: /cv/
     <h3 class="cv-section-title">Open Source</h3>
     <div class="cv-open-source-project">
         <h4 class="cv-open-source-project-name">React Geojson Cluster</h4>
-        <a target="_blank" href="https://github.com/paulserraino/react-geojson-cluster">source</a> / 
+        <a target="_blank" href="https://github.com/paulserraino/react-geojson-cluster">source</a> /
         <a target="_blank" href="http://paulserraino.com/react-geojson-cluster">demo</a>
         <p>A react component that accepts geojson as a prop and creates a set of map marker clusters that are displayed onto a leaflet map.</p>
     </div>
