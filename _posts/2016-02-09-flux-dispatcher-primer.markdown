@@ -18,7 +18,7 @@ const token = dispatcher.register(payload => {
 
 At a glance, the registered callback may seem completely useless, since using a traditional pub/sub subscriber (via `.on` method) works perfectly, but using a basic event emitter becomes problematic when modeling application into stores. The data coming in from the server is relational (the majority of the time). So for each update in a relational data store would require updates to cascade from parent dependencies. The flux dispatcher solves this issue with [promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise).
 
-There is a method is in flux library called [`.waitFor`](https://github.com/facebook/flux/blob/master/src/Dispatcher.js#L152). This method waits for each parent dispatcher to resolve before invoking the next child registered callback.
+The flux dispatcher has method called [`.waitFor`](https://github.com/facebook/flux/blob/master/src/Dispatcher.js#L152). This method leverages promises to wait for each parent dispatcher to resolve before invoking the next child registered callback.
 
 {% highlight javascript %}
 
