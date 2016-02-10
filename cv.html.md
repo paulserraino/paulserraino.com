@@ -57,6 +57,7 @@ permalink: /cv/
         <span class="cv-job-title">F​ounder<span>
         <span class="cv-job-date">Jan 2016 - Present</span>
         <ul class="cv-job-description-list">
+            <li>communicating with clients to ensure projects are completed on time and within budget</li>
             <li>built and designed a custom e­commerce site using shopify and liquid templates</li>
             <li>designed and built the company site using node.js, nodemailer and built a custom svg animation</li>
         </ul>
@@ -66,11 +67,12 @@ permalink: /cv/
         <span class="cv-job-title">F​ull Stack Javascript Developer</span>
         <span class="cv-job-date">Jan 2015 - Feb 2016</span>
         <ul class="cv-job-description-list">
-            <li>scaled the core job scheduler to efficiently process jobs concurrently</li>
-            <li>performed complex sql queries for the sales team</li>
-            <li>built many web components using react.js</li>
             <li>maintained a large scaled legacy backbone.js application</li>
+            <li>performed complex sql queries for the sales team</li>
+            <li>scaled the core job scheduler to process jobs concurrently</li>
+            <li>built many web components using react.js</li>
             <li>trained junior developers</li>
+            <li>attended weekly scrum meetings</li>
         </ul>
     </div>
     <div class="cv-job">
