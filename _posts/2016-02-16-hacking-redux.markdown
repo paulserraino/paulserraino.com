@@ -37,7 +37,7 @@ function add(a, b) {
 Redux uses the reduce pattern to create manageable state containers for application stores. Notice, that in the above example, that each time `add` is evaluated it returns the current state of the recursive process. In Redux, the `add` method would be referred as a "reducer" and the elements of the list could be thought of as actions; and the state could be thought of as the state of the application. The biggest difference is that in Redux, we don't process lists of actions, actions are "dispatched". Each time an action is dispatched the reducer (a pure function) is evaluated with the current state and the action object as arguments.  
 
 ### Composite Functions
-Functional composition is a way mapping the results of one function to the arguments of another. This is a useful tool, as it allows us create new abstractions by combining other abstractions (i.e actions and reducers). Composite functions are used in Redux to create middleware and to combine reducers.
+Functional composition is a way mapping the results of one function to the arguments of another. This is a useful tool, as it allows us create new abstractions by combining other abstractions. Composite functions are used in Redux to create middleware.
 
 {% highlight javascript %}
 function f(x) { return x*x }
@@ -244,7 +244,7 @@ function applyMiddleware(...middlewares) {
         dispatch = compose(...chain)(dispatch)
 
         // Finally, we return the store's interface with the new `dispatch` method
-        
+
         return {
             ...store,
             dispatch
