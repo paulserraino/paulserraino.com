@@ -3,6 +3,7 @@ layout: post
 title:  "Flux Dispatcher Primer"
 date:   2016-02-09 6:07:59
 categories: javascript
+summary: The flux dispatcher is not a traditional event-emitter that we, javascript developers, know and love. The flux dispatcher broadcasts messages to a single subscriber, resulting in unidirectional data flow.
 ---
 
 The flux dispatcher is not a traditional [event emitter](/javascript/2016/02/05/event-emitter-mechanics.html) that we, javascript developers, know and love. The flux dispatcher is meant to broadcast unidirectional messages. Messages, that are emitted by one or more publishers to a single subscriber. This gives rise to some interesting patterns and is a nice solution that decouples UI components from the application stores.

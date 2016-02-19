@@ -3,6 +3,7 @@ layout: post
 title:  "Redux Design Patterns"
 date:   2016-02-16 6:07:59
 categories: javascript
+summary: Redux leverages functional design patterns to manage state containers. Let's take a deeper look into how those design patterns work to implement our own version of Redux. 
 ---
 
 # λ
