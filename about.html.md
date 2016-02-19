@@ -1,8 +1,8 @@
 ---
 layout: page
-title: cv
-linktext: CV
-permalink: /cv/
+title: about
+linktext: about
+permalink: /about/
 ---
 
 <div class="cv-header-links">
@@ -19,7 +19,7 @@ permalink: /cv/
 
 <div class="cv-section">
     <p class="cv-info">
-    <span class="big-text">Hello</span>, my name is Paul Serraino and I'm a Full Stack Developer from Austin Texas. I'm the founder of <a target="__blank" href="http://www.tinysatellites.com">Tiny Satellites Consulting</a> and a master of all things web.
+    <span class="big-text">Hello</span>, my name is Paul Serraino and I'm a Full Stack Developer from Austin Texas.
     </p>
 </div>
 
@@ -28,23 +28,23 @@ permalink: /cv/
     <ul class="cv-skills-list">
         <li>
             <strong>Programming​</strong>
-            <p>javascript, c++, python, ruby</p>
+            <span>javascript, c++, python, ruby</span>
         </li>
         <li>
             <strong>Development</strong>
-            <p>r​eact.js, backbone.js, lodash, jQuery, d3, socket.io</p>
+            <span>r​eact.js, backbone.js, lodash, jQuery, d3, socket.io</span>
         </li>
         <li>
             <strong>Databases</strong>​
-            <p>postgresql, mongodb, redis, couchDB</p>
+            <span>postgresql, mongodb, redis, couchDB</span>
         </li>
         <li>
             <strong>Design</strong>
-            <p>l​ess, sass, photoshop</p>
+            <span>l​ess, sass, photoshop</span>
         </li>
         <li>
             <strong>Tools</strong>
-            <p>g​it, gulp, grunt, docker, heroku, babel, bash</p>
+            <span>g​it, gulp, grunt, docker, heroku, babel, bash</span>
         </li>
     </ul>
 </div>
@@ -53,13 +53,12 @@ permalink: /cv/
     <h3 class="cv-section-title">Experience</h3>
 
     <div class="cv-job">
-        <h4 class="cv-job-company">Tiny Satellites Consulting</h4>
-        <span class="cv-job-title">F​ounder<span>
+        <h4 class="cv-job-company">Freelance</h4>
+        <span class="cv-job-title">F​ull Stack Developer<span>
         <span class="cv-job-date">Jan 2016 - Present</span>
         <ul class="cv-job-description-list">
             <li>communicating with clients to ensure projects are completed on time and within budget</li>
-            <li>built and designed a custom e­commerce site using shopify and liquid templates</li>
-            <li>designed and built the company site using node.js, nodemailer and built a custom svg animation</li>
+            <li>building and designing custom e­commerce sites using shopify and liquid templates</li>
         </ul>
     </div>
     <div class="cv-job">
@@ -98,15 +97,5 @@ permalink: /cv/
             <li>worked on Instabus, a web app that tracks capital metro buses in real time</li>
             <li>worked on Austin Green Map, an interactive map of parks in Austin</li>
         </ul>
-    </div>
-</div>
-
-<div class="cv-section">
-    <h3 class="cv-section-title">Open Source</h3>
-    <div class="cv-open-source-project">
-        <h4 class="cv-open-source-project-name">React Geojson Cluster</h4>
-        <a target="_blank" href="https://github.com/paulserraino/react-geojson-cluster">source</a> /
-        <a target="_blank" href="http://paulserraino.com/react-geojson-cluster">demo</a>
-        <p>A react component that accepts geojson as a prop and creates a set of map marker clusters that are displayed onto a leaflet map.</p>
     </div>
 </div>

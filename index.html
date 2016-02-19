@@ -10,8 +10,12 @@ layout: default
         <h2 class="post-title-link">
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
-        <span class="post-categories">{{post.categories}}</span>
-        <span class="post-meta">{{ post.date | date: '%m/%d/%Y' }}</span>
+        <div class="post-meta">
+            {{ post.date | date: '%m/%d/%Y' }} • {{post.categories}}
+        </div>
+        <p>
+            Lumbersexual squid biodiesel narwhal trust fund. Portland ethical tacos health goth, venmo craft beer typewriter tilde art party chia normcore. Art party thundercats distillery semiotics post-ironic. Neutra intelligentsia four dollar toast echo park +1 tousled lo-fi distillery microdosing art party.
+        </p>
       </li>
     {% endfor %}
   </ul>
