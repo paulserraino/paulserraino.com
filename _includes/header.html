@@ -20,7 +20,7 @@
 
       <div class="trigger">
           {% assign currentURL = page.url %}
-          <a class="page-link {% if currentURL == '/index.html' %}active{% endif %}" href="/">blog</a>
+          <a class="page-link {% if currentURL == '/index.html' or currentURL == '/' %}active{% endif %}" href="/">blog</a>
         {% for page in site.pages %}
           {% if page.title %}
           <a class="page-link {% if page.url == currentURL %}active{% endif %}" href="{{ page.url | prepend: site.baseurl }}">{{ page.linktext or page.title }}</a>
