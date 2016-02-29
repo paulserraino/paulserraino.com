@@ -216,9 +216,9 @@
 .post-list {
     margin-left: 0;
     list-style: none;
+    min-height: 100px;
 
     > li {
-        margin-bottom: $spacing-unit;
     }
 }
 
@@ -230,6 +230,14 @@
 .post-link {
     display: block;
     font-size: 17px;
+    min-height: 100px;
+    padding: 20px;
+    color: $text-color;
+
+    &:hover {
+        color: $text-color;
+        background-color: #fbfbfb;
+    }
 }
 
 .post-list .post-meta {
@@ -240,12 +248,27 @@
 .post-list .post-title-link {
     display: inline-block;
     margin-bottom: 0px;
+    font-size: 25px;
 }
 
 .post-list .post-categories {
     display: inline-block;
     float: right;
     font-size: 14px;
+}
+
+.post-list .post-summary {
+    color: $text-color;
+}
+
+.post-list .post-thumbnail {
+    float: left;
+    width: 30%;
+    height: 100px;
+    max-width: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 10px;
 }
 
 
