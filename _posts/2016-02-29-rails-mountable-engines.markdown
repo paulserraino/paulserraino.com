@@ -23,12 +23,10 @@ As an example, i'm going to set up a blog that is made up of two component appli
 Let's start by, first, setting up the API.
 
 {% highlight bash %}
-# terminal
 rails new blog_api
 {% endhighlight %}
 
 {% highlight bash %}
-# terminal
 cd blog_api
 rails g scaffold posts title:string context:text
 touch blog_api.gemspec
@@ -131,7 +129,7 @@ Let's set up an initialization process to append the `blog_api` migrations to th
 {% highlight ruby %}
 # ~/blog_api/lib/engines/blog_api/engine.rb
 
-module App1
+module BlogAPI
     class Engine < Rails::Engine
 
         initializer :append_migrations do |app|
