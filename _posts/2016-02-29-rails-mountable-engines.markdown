@@ -114,12 +114,13 @@ Next, we need to run the `blog_api` migrations with `blog_core`.
 
 {% highlight bash %}
 # ~/blog_core
-rake blog_api:install:migrations
+rake blog_api_engine:install:migrations
+rake db:migrate
 {% endhighlight %}
 
 And that's it! We have successfully mounted our `blog_api` within `blog_core`.
 
-So this was just a boilerplate example of using rails engines (just to get started). There are many was of making your rails engine more robust, such as mounting an engine on a specific route or autosyncing database migrations. I'm not going to go into too much depth in optimizing a rails engine in this post , there are plenty of resources online to help you out, if you're interested in doing that, but I will briefly cover autosyncing database migrations since it's fairly easy to accomplish.
+So this was just a boilerplate example of using rails engines (just to get started). There are many ways of making your rails engine more robust, such as mounting an engine on a specific route or autosyncing database migrations. I'm not going to go into too much depth in optimizing a rails engine in this post , there are plenty of resources online to help you out, if you're interested in doing that, but I will briefly cover autosyncing database migrations since it's fairly easy to accomplish.
 
 ## Syncing Migrations
 Interestingly, Rails Engines inherent from [Railties](http://api.rubyonrails.org/classes/Rails/Railtie.html). Railties allow developers to hook into and extend the Rails initialization process. So we can write initializers in our `blog_api` engine and Rails will execute the initializers when the gem is required.
