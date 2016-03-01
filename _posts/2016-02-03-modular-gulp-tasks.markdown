@@ -3,6 +3,8 @@ layout: post
 title:  "Modular Gulp Tasks"
 date:   2016-02-04 6:07:59
 categories: javascript
+thumbnail: gulp-logo.png
+summary: Modularizing common gulp tasks with gtasks
 ---
 
 One of my favorite principles for software engineering is the DRY (don't repeat yourself) principle. It's often one the first things I think about before writing a line of code, because in the majority of cases it leads to smaller and more maintainable code bases.

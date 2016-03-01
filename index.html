@@ -7,15 +7,13 @@ layout: default
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        <h2 class="post-title-link">
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-        <div class="post-meta">
-            {{ post.date | date: '%m/%d/%Y' }} • {{post.categories}}
-        </div>
-        <p>
-            {{post.summary}}
-        </p>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+            <div>
+                <div class="post-thumbnail" style="background-image: url('assets/images/{{ post.thumbnail }}')"></div>
+                <h2 class="post-title-link">{{ post.title }}</h2>
+                <p class="post-summary">{{ post.summary }}</p>
+            </div>
+        </a>
       </li>
     {% endfor %}
   </ul>

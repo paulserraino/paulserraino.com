@@ -3,6 +3,7 @@ layout: post
 title:  "Event Emitter Mechanics"
 date:   2016-02-05 7:07:59
 categories: javascript
+thumbnail: default-logo.png
 summary: UI programming is event driven, so a deep understanding of the mechanics of event-emitters is essential to every front-end developer.
 ---
 
