@@ -36,7 +36,7 @@ A seasoned javascript developer might recognise this observable, it's [redux](ht
 
 > There's always more than one solution to a given problem. What if redux didn't exist? How would you build an observable state container?
 
-I'm not going to go into the details of defining reactive programming in this blog post, instead I want to borrow the core principles of Redux (a single source of truth, read-only state and changes made with pure function), and look for different way to build a predictable state container.
+I'm not going to go into the details of defining reactive programming in this blog post, instead I want to borrow the core principles of Redux (a single source of truth, read-only state and changes made with pure function), and look for different ways to build predictable state containers.
 
 Let's go back to what a state container is made up of (an observable and a reducer) and approach the problem from two extremes, using some popular libraries.
 
@@ -90,7 +90,6 @@ subject.onNext({ type: 'INC' }) // => 2
 subject.onNext({ type: 'DEC' }) // => 1
 {% endhighlight %}
 
-Dope.
 
 ### Building a state container using Ramda
 
@@ -107,15 +106,9 @@ var R = require('ramda')
 var reduceReducers = require('reduce-reducers')
 var Container = require('./ramda-container') // see github source
 
-// First, explicted set `transduce` to be partial applicable
-var transduce = R.compose(
-    R.partial(R.transduce),
-    R.unapply(R.identity)
-)
-
-// Next, we define our actions.
+// First, we define our actions.
 // actions will have the following api:
-// f(state, actions) (they're reducers!)
+// f(state, actions) they're reducers!
 
 var increment = transduce(
     R.filter(a => a.type === 'INC'),
@@ -145,7 +138,6 @@ subject.onNext({ type: 'INC' }) // => 1
 subject.onNext({ type: 'INC' }) // => 2
 subject.onNext({ type: 'DEC' }) // => 1
 {% endhighlight %}
-Lit.
 
 #### Source Code
 [https://github.com/paulserraino/state-containers](https://github.com/paulserraino/state-containers)
