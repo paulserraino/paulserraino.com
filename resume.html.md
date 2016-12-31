@@ -1,27 +1,26 @@
 ---
 layout: page
-title: about
-linktext: about
-permalink: /about/
+title: résumé
+linktext: résumé
+permalink: /resume/
 ---
 
-<div class="cv-header-links">
-    <a target="__blank" href="/assets/images/resume-paul-serraino.pdf">view pdf</a> /
-    <a target="__blank" href="https://www.linkedin.com/in/paul-serraino-07067b94">linkedin</a>
-</div>
-
-<a href="#">pdf version</a>
 <div class="cv-header-container">
     <div class="cv-header">
         <h2 class="cv-header-name">Full Stack Web Developer</h2>
     </div>
 </div>
 
-<div class="cv-section">
-    <p class="cv-info">
-    <span class="big-text">Hello</span>, my name is Paul Serraino and I'm a Full Stack Developer from Austin Texas.
-    </p>
+<div class="cv-header-links wrapper">
+    <a target="__blank" href="/assets/images/resume-paul-serraino.pdf">view pdf</a> /
+    <a target="__blank" href="https://www.linkedin.com/in/paul-serraino-07067b94">linkedin</a>
 </div>
+
+<div class="cv-info">
+  <span class="big-text">Hello</span>, my name is Paul Serraino and I'm a Full Stack Developer from Austin Texas.
+</div>
+
+<div class="wrapper">
 
 <div class="cv-section">
     <h3 class="cv-section-title">Skills</h3>
@@ -98,4 +97,6 @@ permalink: /about/
             <li>worked on Austin Green Map, an interactive map of parks in Austin</li>
         </ul>
     </div>
+</div>
+
 </div>

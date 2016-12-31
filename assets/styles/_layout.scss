@@ -2,13 +2,13 @@
  * Site header
  */
 .site-header {
+    position: fixed;
     min-height: 56px;
-
-    // Positioning context for the mobile navigation icon
-    position: relative;
+    width: 100%;
+    background: #fff;
     border-bottom: 1px solid #e8e8e8;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 5px 0px;
+    z-index: 99;
 }
 
 .site-title {
@@ -31,7 +31,9 @@
 }
 
 .site-title h1 {
-    font-size: 26px;
+    font-family: 'Amethyst';
+    font-size: 35px;
+    color: rgba(0,0,0,0.6);
     margin-bottom: 0;
 }
 
@@ -40,7 +42,7 @@
 }
 
 .site-nav {
-    float: right;
+    float: left;
     line-height: 56px;
 
     .menu-icon {
@@ -48,27 +50,24 @@
     }
 
     .page-link {
+        margin-left: 20px;
         color: $text-color;
-        font-size: 19px;
+        font-size: 20px;
         line-height: $base-line-height;
-        padding-bottom: 10px;
-        border-bottom: 2px solid transparent;
+        padding-bottom: 20px;
+        border-bottom: 3px solid transparent;
         -webkit-transform: translateZ(0);
         transition: all 0.3s ease;
 
-        // Gaps between nav items, but not on the first one
-        &:not(:first-child) {
-            margin-left: 20px;
-        }
-
         &:hover {
             color: $brand-color;
-            border-bottom: 2px solid $brand-color;
+            border-color: $brand-color;
         }
     }
 
     a.page-link.active {
         color: $brand-color;
+        border-color: $brand-color;
     }
 
     @include media-query($on-palm) {
@@ -208,7 +207,7 @@
  */
 .page-content {
     background-color: #fff;
-    padding: $spacing-unit 0;
+    padding: 93px 0px;
 }
 
 .page-heading {
@@ -324,4 +323,65 @@
             font-size: 18px;
         }
     }
+}
+
+.post-footer {
+  background: #eee;
+  padding: 30px 0px;
+
+  #disqus_thread {
+    background: #fff;
+    padding: 10px 20px;
+    margin-top: 30px;
+  }
+}
+
+.post-preview-wrapper {
+  height: 255px;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.post-preview {
+  position: relative;
+  display: inline-block;
+  border-radius: 5px;
+  margin-left: 5px;
+  float: left;
+  width: 32.5%;
+  min-height: 232px;
+  background-color: #fff;
+  color: $text-color;
+  transition: all 0.3s ease;
+}
+
+.post-preview-title {
+  margin-bottom: 5px;
+  font-size: 24px;
+  transition: all 0.3s ease;
+}
+
+.post-preview:hover .post-preview-title {
+  color: $brand-color;
+}
+
+.post-preview-image {
+  width: 60px;
+  margin-top: 16px;
+}
+
+.post-preview-summary {
+  padding: 0px 20px;
+}
+
+.post-preview-summary, .post-preview-date {
+  text-align: left;
+}
+
+.post-preview-date {
+  position: absolute;
+  bottom: 0px;
+  margin: 7px;
+  font-size: 14px;
 }

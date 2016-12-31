@@ -1,21 +1,22 @@
 ---
 layout: default
 ---
+<div class="wrapper">
+  <div class="home">
 
-<div class="home">
+    <ul class="post-list">
+      {% for post in site.posts %}
+        <li>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+              <div>
+                  <div class="post-thumbnail" style="background-image: url('assets/images/{{ post.thumbnail }}')"></div>
+                  <h2 class="post-title-link">{{ post.title }}</h2>
+                  <p class="post-summary">{{ post.summary }}</p>
+              </div>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-            <div>
-                <div class="post-thumbnail" style="background-image: url('assets/images/{{ post.thumbnail }}')"></div>
-                <h2 class="post-title-link">{{ post.title }}</h2>
-                <p class="post-summary">{{ post.summary }}</p>
-            </div>
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
-
+  </div>
 </div>

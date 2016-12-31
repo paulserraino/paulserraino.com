@@ -3,7 +3,7 @@ $cv-primary-color: $brand-color;
 
 // Header
 .cv-header {
-    position: absolute;
+    position: relative;
     background-color: #f2f2f2;
     text-align: center;
     padding-top: 95px;
@@ -11,13 +11,8 @@ $cv-primary-color: $brand-color;
     background-size: cover;
     width: 100%;
     left: 0;
-    top: 130px;
     background-image: url('/assets/images/dev.jpeg');
     color: #fff;
-}
-
-.cv-header-container {
-    height: 157px;
 }
 
 .cv-header .cv-header-name {
@@ -29,7 +24,6 @@ $cv-primary-color: $brand-color;
 .cv-header-links {
     position: relative;
     text-align: right;
-    top: 217px;
 }
 
 .cv-header-links a {
@@ -54,7 +48,7 @@ $cv-primary-color: $brand-color;
 // About Me
 
 .cv-info {
-    padding: 20px;
+  text-align: center;
 }
 
 .cv-info .big-text {

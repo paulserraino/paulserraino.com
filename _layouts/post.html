@@ -1,15 +1,49 @@
 ---
 layout: default
 ---
-<div class="post">
+<div class="wrapper">
+  <div class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%B %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
+    <header class="post-header">
+      <h1 class="post-title">{{ page.title }}</h1>
+      <p class="post-meta">{{ page.date | date: "%B %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    </header>
 
-  <article class="post-content">
-    {{ content }}
-  </article>
-
+    <article class="post-content">
+      {{ content }}
+    </article>
+  </div>
 </div>
+
+<div class="post-footer">
+
+  <div class="post-preview-wrapper">
+    {% for post in site.related_posts limit:3 %}
+      <a href="{{ post.url }}">
+          <div class="post-preview">
+            <img class="post-preview-image" src="/assets/images/{{ post.thumbnail}}" alt="">
+            <h2 class="post-preview-title">{{ post.title | truncatewords:3 }}</h2>
+            <p class="post-preview-summary">{{ post.summary | truncatewords:15 }}</p>
+            <p class="post-preview-date">{{ post.date | date_to_string }}</p>
+          </div>
+      </a>
+    {% endfor %}
+  </div>
+
+  <div class="wrapper">
+    <div id="disqus_thread"></div>
+  </div>
+</div>
+
+  <script>
+
+  (function() { // DON'T EDIT BELOW THIS LINE
+  var d = document, s = d.createElement('script');
+
+  s.src = '//paulserrainogithub.disqus.com/embed.js';
+
+  s.setAttribute('data-timestamp', +new Date());
+  (d.head || d.body).appendChild(s);
+  })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>

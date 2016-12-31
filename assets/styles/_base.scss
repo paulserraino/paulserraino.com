@@ -27,6 +27,10 @@ body {
     height: 100%;
 }
 
+@font-face {
+  font-family: 'Amethyst';
+  src: url('/assets/fonts/Amethyst.ttf');
+}
 
 
 /**
@@ -84,7 +88,7 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 400;
+    font-weight: 600;
 }
 
 
