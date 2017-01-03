@@ -6,7 +6,7 @@ Handlebars.registerHelper('eq', function(a, b, options) {
 (function() {
   var favData = [
     { type: 'music', src: 'https://embed.spotify.com/?uri=spotify:user:tallpaul11:playlist:6od2kerzt4iedS5qx3g2fQ'},
-    { type: 'music', src: 'https://embed.spotify.com/?uri=spotify:user:tallpaul11:playlist:3WGnClFppCZrQjXSFsc48F'},
+    { type: 'music', src: 'https://embed.spotify.com/?uri=spotify:user:tallpaul11:playlist:7r7kt8LysrS5OEMI5hRtw2'},
     { type: 'artist', src: '/assets/images/antony-gormley.jpg', link: 'http://www.antonygormley.com'},
     { type: 'movie', src: 'https://www.youtube.com/embed/tFMo3UJ4B4g'},
     { type: 'artist', src: '/assets/images/buckminster.jpg', link: 'https://www.bfi.org'},
@@ -19,7 +19,8 @@ Handlebars.registerHelper('eq', function(a, b, options) {
     { type: 'webDev', src: 'https://www.youtube.com/embed/2Op3QLzMgSY'},
     { type: 'movie', src: 'https://www.youtube.com/embed/ClcQUlXcCKw'},
     { type: 'webDev', src: 'https://www.youtube.com/embed/vTHRHWIacI0'},
-    { type: 'movie', src: 'https://www.youtube.com/embed/ZjDbJQKDXCY'}
+    { type: 'movie', src: 'https://www.youtube.com/embed/ZjDbJQKDXCY'},
+    { type: 'music', src: 'https://embed.spotify.com/?uri=spotify:user:tallpaul11:playlist:3WGnClFppCZrQjXSFsc48F'}
   ];
 
   var _favTemplate = `
