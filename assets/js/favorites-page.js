@@ -20,7 +20,8 @@ Handlebars.registerHelper('eq', function(a, b, options) {
     { type: 'movie', src: 'https://www.youtube.com/embed/ClcQUlXcCKw'},
     { type: 'webDev', src: 'https://www.youtube.com/embed/vTHRHWIacI0'},
     { type: 'movie', src: 'https://www.youtube.com/embed/ZjDbJQKDXCY'},
-    { type: 'music', src: 'https://embed.spotify.com/?uri=spotify:user:tallpaul11:playlist:3WGnClFppCZrQjXSFsc48F'}
+    { type: 'music', src: 'https://embed.spotify.com/?uri=spotify:user:tallpaul11:playlist:3WGnClFppCZrQjXSFsc48F'},
+    { type: 'artist', src: '/assets/images/daniel-trocchio.jpg', link: 'http://www.danieltrocchio.com'}
   ];
 
   var _favTemplate = `
