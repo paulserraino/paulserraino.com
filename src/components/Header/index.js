@@ -7,11 +7,13 @@ export default class Header extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      menuOpen: false
+      menuOpen: false,
+      isMobile: false
     };
   }
 
   componentDidMount() {
+    this.setState({ isMobile: window && window.innerWidth <= 510 })
     window.addEventListener("resize", this.resetMenuState.bind(this));
   }
 
@@ -20,7 +22,10 @@ export default class Header extends React.Component {
   }
 
   resetMenuState() {
-    this.setState({menuOpen: false});
+    this.setState({
+      menuOpen: false,
+      isMobile: window && window.innerWidth <= 510
+    });
   }
 
   getMenuStyle() {
@@ -32,7 +37,7 @@ export default class Header extends React.Component {
   }
 
   render() {
-    const menuStyle = window.innerWidth <= 510 ? this.getMenuStyle() : {};
+    const menuStyle = this.state.isMobile ? this.getMenuStyle() : {};
     return (
       <header className="header">
         <div className="header__div--container">

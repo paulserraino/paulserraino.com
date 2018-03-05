@@ -17,11 +17,21 @@ const thumbnailMap = {
 }
 
 const getThumbnail = (path) => (thumbnailMap[path] || defaultThumb);
-const renderThumbail = (path) => (
-  window.innerWidth <= 510 ?
-  null :
-  (<img className="blog__img--thumbnail" src={getThumbnail(path)} />)
-);
+
+class Thumbnail extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {display: false};
+  }
+  componentDidMount() {
+    this.setState({display: window.innerWidth > 510 })
+  }
+  render() {
+    return this.state.display ?
+      (<img className="blog__img--thumbnail" src={getThumbnail(this.props.path)} />)
+      : (<span></span>);
+  }
+}
 
 export default function Index({ data }) {
   const { edges: posts } = data.allMarkdownRemark;
@@ -35,7 +45,7 @@ export default function Index({ data }) {
               <Link to={post.frontmatter.path}>
                 <div className="blog__div--row">
                   <div className="blog__div--col-1">
-                    {renderThumbail(post.frontmatter.thumbnailRef)}
+                    <Thumbnail path={post.frontmatter.thumbnailRef} />
                   </div>
                   <div className="blog__div--col-2">
                     <h1 className="blog__h1--title">{post.frontmatter.title}</h1>

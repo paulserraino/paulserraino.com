@@ -5,10 +5,15 @@ import heroLargeImg from '../images/paul-hero-large.jpg';
 class AboutPage extends React.Component {
   constructor(props) {
     super(props);
+    this.state = {isMobile: false}
+  }
+
+  componentDidMount() {
+    this.setState({ isMobile: window.innerWidth <= 510 })
   }
 
   renderHeroImage() {
-    return window.innerWidth <= 510 ?
+    return this.state.isMobile ?
       null :
       (
         <div className="about__div--hero">

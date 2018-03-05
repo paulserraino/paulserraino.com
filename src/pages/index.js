@@ -7,11 +7,20 @@ import GromMan from '../components/GromMan';
 import manSvg from '../images/grom-man.svg';
 import homeCard from '../images/home-card.png';
 
-const renderGromMan = () => (
-  window.innerWidth <= 510 ?
-  null :
-  (<GromMan viewbox="50 0 290 400"/>)
-);
+class GromManFactory extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {isMobile: false};
+  }
+
+  componentDidMount() {
+    this.setState({ isMobile: window.innerWidth <= 510 });
+  }
+
+  render() {
+    return this.state.isMobile ? null : (<GromMan viewbox="50 0 290 400"/>);
+  }
+}
 
 const IndexPage = () => (
   <div className="index__div--container">
@@ -20,7 +29,7 @@ const IndexPage = () => (
       <Skills />
     </div>
     <div className="index__div--col">
-      {renderGromMan()}
+      <GromManFactory />
     </div>
   </div>
 )
