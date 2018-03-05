@@ -1,0 +1,34 @@
+.about__div {
+  &--container {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1026px;
+    margin-top: 50px;
+    z-index: 1;
+  }
+
+  &--hero {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1026px;
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+    z-index: -1;
+  }
+}
+
+.about__img {
+  &--hero {
+    //max-width: 960px;
+    width: 100%;
+  }
+}
+
+.about__h2 {
+  &--title-section {
+    font-family: "Julietta", helvetica, sans-serif;
+    font-size: 2.25rem;
+  }
+}

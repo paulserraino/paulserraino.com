@@ -1,0 +1,9 @@
+.blog-post__div {
+  &--container {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1026px;
+    margin-top: 50px;
+  }
+}

@@ -1,0 +1,46 @@
+.index {
+  &__div {
+    &--container {
+      position: relative;
+      margin: 0 auto;
+      max-width: 1024px;
+      width: 100%;
+      min-height: 620px;
+      z-index: 1;
+
+      &:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    }
+
+    &--col {
+      float: left;
+      width: 49.99%;
+    }
+
+    &--card {
+      margin-top: 25px;
+      max-width: 415px;
+    }
+  }
+
+  &__img {
+    &--card {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      max-width: 390px;
+    }
+  }
+
+}
+
+@media (max-width: 510px) {
+  .index__div {
+    &--col {
+      width: 100%;
+    }
+  }
+}
