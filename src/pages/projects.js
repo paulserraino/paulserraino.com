@@ -27,7 +27,7 @@ const projectData = [
     title: 'React GeoJSON',
     image: geoJsonImg,
     description: 'React Geo-JSON Cluster is a react module that will generate marker clusters from geo-json data.',
-    link: {text: 'Live Demo', href: 'http://paulserraino.com/react-geojson-cluster'}
+    link: {text: 'Live Demo', href: 'http://paulserraino.github.io/react-geojson-cluster'}
   },
 
 ]
